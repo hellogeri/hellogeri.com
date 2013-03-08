@@ -82,6 +82,10 @@ nav[role="navigation"] ul li {
 	width: 13%;
 }
 
+nav[role="navigation"] ul li a {
+	padding-left: 22px;
+}
+
 nav[role="navigation"] li:nth-child(1), nav[role="navigation"] li:nth-child(2), nav[role="navigation"] li:nth-child(3) {
 	float: left;
 }
@@ -89,6 +93,38 @@ nav[role="navigation"] li:nth-child(1), nav[role="navigation"] li:nth-child(2), 
 nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), nav[role="navigation"] li:nth-child(6) {
 	float: right;
 }
+
+.icon-illustration {
+	margin: 0 0 0 0;
+	background: url(../img/icon-illustration.png) no-repeat 0;
+}
+
+.icon-design {
+	margin: 0 0 0 0;
+	background: url(../img/icon-design.png) no-repeat 0;
+}
+
+.icon-photo {
+	margin: 0 0 0 0;
+	background: url(../img/icon-photo.png) no-repeat 0;
+}
+
+.icon-about {
+	margin: 0 0 0 0;
+	background: url(../img/icon-about.png) no-repeat 0;
+}
+
+.icon-blog {
+	margin: 0 0 0 0;
+	background: url(../img/icon-blog.png) no-repeat 0;
+}
+
+.icon-contact {
+	margin: 0 0 0 0;
+	background: url(../img/icon-contact.png) no-repeat 0;
+}
+
+
 
 nav[role="navigation"] ul li a {
 	color: rgba(255,255,255,1);

@@ -48,28 +48,22 @@ a:active {
 nav[role="navigation"]{
 	margin: 0 auto;
 	max-width: 100%;
-	padding: 0 5% 1em 5%;
+	padding: 1em 5% 1em 5%;
+	background: #000;
 	background: rgba(0,0,0,1);
 	text-align: center;
+	overflow: auto;
 }
-
 nav[role="navigation"] h1 {
-	margin: 0;
+	margin: 0 auto;
+	left: 50%;
+	margin: 0 0 0 -62.5px;
 	position: absolute; 
-	top: 0;
-	left: 0;
+	z-index: 1;
+	top: .75em;
 	width: 125px;
 	height: 125px;
 	text-indent: -9999px;
-}
-
-nav[role="navigation"] h2 {
-	margin: 0 auto;
-	position: relative; 
-	z-index: 1;
-	top: 50px;
-	width: 125px;
-	height: 125px;
 	background: transparent url(../img/logo.png) no-repeat 50% 0;
 }
 
@@ -78,6 +72,8 @@ nav[role="navigation"] ul {
 	padding: 0;
 	list-style-type: none;
 	font-size: 1em;
+	float: left;
+	width: 100%;
 }
 
 nav[role="navigation"] ul li {

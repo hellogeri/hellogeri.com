@@ -206,7 +206,6 @@ div[role="banner"] {
 
 /*---- Main -----*/
 
-
 article header h1 {
 	line-height: 1.2em;
 	margin: 1em 0 0 0;
@@ -289,11 +288,23 @@ section[role="complementary"] h2 {
 	padding: 0; 
 }
 
+
+.categories ul {
+    float: none;
+    width: 100%;
+    -webkit-column-count: 2;
+    -webkit-column-gap: .5em;
+    -moz-column-count: 2;
+    -moz-column-gap: .5em;
+    column-count: 2;
+    column-gap: .5em;
+}
+
 .categories ul li {
 	border-bottom: solid 1px rgb(227,227,208);
 }
 
-.categories ul li:last-of-type {
+.categories ul li:nth-child(4), .categories ul li:nth-child(8) {
 	border-bottom: none; 
 }
 
@@ -442,6 +453,9 @@ footer[role="contentinfo"] a:hover {
 
 @media screen and (min-width: 70em) {
 
+
+/* -- Stretch out top navigation horizontally -- */ 
+
 nav[role="navigation"]{
 	margin: 0 auto;
 	padding: 1em 5% 1em 5%;
@@ -456,7 +470,7 @@ nav[role="navigation"] ul {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	-webkit-column-count: 1;
+	-webkit-column-count: 1;  /*---- Is this the right way to turn off columns? ----*/
    -webkit-column-gap: 0;
    -moz-column-count: 1;
    -moz-column-gap: 0;
@@ -513,6 +527,7 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 	background: url(../img/icon-contact.png) no-repeat 0;
 }
 
+/* -- Bump down banner text -- */ 
 
 .intro {
 	max-width: 80%;
@@ -529,6 +544,8 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 	font-size: 1em;
 }
 
+/* -- Turn into two columns -- */ 
+
 main[role="main"] {
 	width: 76.04166666%;
 	float: left;
@@ -540,6 +557,29 @@ section[role="complementary"] {
 	float: right;
 	border: 1px solid blue;
 } 
+
+
+/* -- Turn into single column -- */ 
+
+.categories ul {
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0;
+    -moz-column-count: 1;
+    -moz-column-gap: 0;
+    column-count: 1;
+    column-gap: 0;
+}
+
+.categories ul li {
+	border-bottom: solid 1px rgb(227,227,208);
+}
+
+.categories ul li:nth-child(4) { 
+	border-bottom: solid 1px rgb(227,227,208);
+}
+
+
+/* -- Stretch out footer nav horizontally -- */ 
 
 .doc-foot ul {
 	width: auto;

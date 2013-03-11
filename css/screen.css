@@ -43,7 +43,8 @@ a:active {
 /*---- Header -----*/
 
 .doc-head {
-	color: rgba(255,255,255,1);
+	color: #fff;
+	background: #000;
 }
 
 nav[role="navigation"]{
@@ -73,7 +74,7 @@ nav[role="navigation"] h1 {
 
 nav[role="navigation"] ul {
 	margin: 0 auto;
-	padding: 0 0 3em 0;
+	padding: 0;  	/* padding: 0 0 3em 0; */
 	list-style-type: none;
 	font-size: 1em;
 	width: 100%;
@@ -175,7 +176,7 @@ div[role="banner"] {
 	height: 27.5em;
 	overflow: auto;
 	padding: 0;
-	background: rgba(27,55,73,1) url(../img/banner-dawn.jpg) no-repeat 50% 82%;
+	background: rgba(27,55,73,1) url(../img/banner-dusk.jpg) no-repeat 50% 82%;
 	color: rgba(255,255,255,1);
 	text-align: center;
 	clear: both;
@@ -223,6 +224,7 @@ article header p {
 
 .blogthumb {
 	margin: auto 0;
+	float: right;
 }
 
 article .excerpt-lg {
@@ -452,43 +454,30 @@ footer[role="contentinfo"] a:hover {
 
 
 /*---- Media Queries -----*/
-.nav-toggle {
-	display: none;
-	left: 0;
-	position: absolute;
-	top: 0;
-}
-.toggled-nav {
-	-webkit-transition: max-height 1s linear;
-	-moz-transition: max-height 1s linear;
-	-o-transition: max-height 1s linear;
-	transition: max-height 1s ease;
-	overflow: hidden;
-	max-height: 400px;
-	padding: 0 !important; /* TODO: This is just an override; I didn’t want to mess with your styles too much. */
-}
-.hide-me {
-	overflow: hidden;
-}
-@media screen and (max-width: 69.9375em) {
-	.hide-me {
-		max-height: 0;
-		display: block;
-	}
-	.nav-toggle {
-		display: block;
-	}
-}
-
 
 .nav-toggle {
 	display: none;
-	left: 0;
+	left: 1em;
 	position: absolute;
-	top: 0;
-	background: url(../img/icon-menu.png) no-repeat 50% 0;
-
+	top: 1em;
+	background: url(../img/icon-menu.png) no-repeat 0 30%;
+	width: 6em;
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #fff;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
 }
+
+a:hover.nav-toggle {
+	color: rgba(222,218,211,1);
+	text-decoration: none;
+}
+
+a:active.nav-toggle {
+	top: 1em;
+}
+
 .toggled-nav {
 	-webkit-transition: max-height 1s linear;
 	-moz-transition: max-height 1s linear;

@@ -452,6 +452,34 @@ footer[role="contentinfo"] a:hover {
 
 
 /*---- Media Queries -----*/
+.nav-toggle {
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.toggled-nav {
+	-webkit-transition: max-height 1s linear;
+	-moz-transition: max-height 1s linear;
+	-o-transition: max-height 1s linear;
+	transition: max-height 1s ease;
+	overflow: hidden;
+	max-height: 400px;
+	padding: 0 !important; /* TODO: This is just an override; I didn’t want to mess with your styles too much. */
+}
+.hide-me {
+	overflow: hidden;
+}
+@media screen and (max-width: 69.9375em) {
+	.hide-me {
+		max-height: 0;
+		display: block;
+	}
+	.nav-toggle {
+		display: block;
+	}
+}
+
 
 .nav-toggle {
 	display: none;

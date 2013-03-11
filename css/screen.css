@@ -452,11 +452,14 @@ footer[role="contentinfo"] a:hover {
 
 
 /*---- Media Queries -----*/
+
 .nav-toggle {
 	display: none;
 	left: 0;
 	position: absolute;
 	top: 0;
+	background: url(../img/icon-menu.png) no-repeat 50% 0;
+
 }
 .toggled-nav {
 	-webkit-transition: max-height 1s linear;

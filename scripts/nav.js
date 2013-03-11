@@ -8,11 +8,7 @@
 		d = document,
 		oEl = d.getElementById( sel ),
 		init = function() {
-<<<<<<< HEAD
 			var txt = d.createTextNode( "Menu" ),
-=======
-			var txt = d.createTextNode( "Nav" ),
->>>>>>> 9ffafa416d0685042185418a7ce73d55d9228e9f
 				toggle = d.createElement( "a" ),
 				toggler = function( e ) {
 					var el = e.target,

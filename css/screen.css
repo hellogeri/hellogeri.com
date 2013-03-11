@@ -470,7 +470,7 @@ footer[role="contentinfo"] a:hover {
 .hide-me {
 	overflow: hidden;
 }
-@media screen and (max-width: 70em) {
+@media screen and (max-width: 69.9375em) {
 	.hide-me {
 		max-height: 0;
 		display: block;

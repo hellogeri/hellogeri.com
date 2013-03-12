@@ -28,7 +28,6 @@ if( $thehour >= 19 && $thehour <= 21 ) {
 if( $thehour >= 22 && $thehour <= 24 ) {
 	$phase = "night";
 }
-
 if( $phase === "day" ) {
 	$alt .= "during the " . $phase;
 } else {

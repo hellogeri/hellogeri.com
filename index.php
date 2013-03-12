@@ -23,15 +23,17 @@
 <link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
 <![endif]-->
 
-<style>.sel {
+<style>
+.sel {
     <?php print $small; ?>
 }
 
-@media screen and (max-width: 20em) {
+@media screen and (min-width: 20em) {
     .sel {
         <?php print $large; ?>
     }
-}</style>
+}
+</style>
 
 <link rel="alternate" type="application/rss+xml" title="hellogeri.com RSS" href="http://hellogeri.com/rss">
 

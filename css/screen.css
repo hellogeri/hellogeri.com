@@ -176,7 +176,9 @@ div[role="banner"] {
 	height: 27.5em;
 	overflow: auto;
 	padding: 0;
-	background: rgba(27,55,73,1) url(../img/banner-dusk.jpg) no-repeat 50% 82%;
+	/* background: rgba(27,55,73,1) url(../img/banner-dusk.jpg) no-repeat 50% 82%; */	
+	background-repeat: no-repeat;
+	background-position: 50% 82%;
 	color: rgba(255,255,255,1);
 	text-align: center;
 	clear: both;

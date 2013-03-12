@@ -1,7 +1,5 @@
-<?
-
 // File Settings
-$path = "./img/";
+$path = "../img/";
 $ext = ".jpg";
 	
 // Attributes
@@ -22,11 +20,8 @@ if( $thehour >= 6 && $thehour <= 9 ) {
 if( $thehour >= 10 && $thehour <= 18 ) {
 	$phase = "day";
 }
-if( $thehour >= 19 && $thehour <= 21 ) {
+if( $thehour >= 19 && $thehour <= 24 ) {
 	$phase = "dusk";
-}	
-if( $thehour >= 22 && $thehour <= 24 ) {
-	$phase = "night";
 }
 
 if( $phase === "day" ) {
@@ -35,7 +30,6 @@ if( $phase === "day" ) {
 	$alt .= "at " . $phase;
 }
 
-$large = "background-image: url(" . $path . $phase . "-lg" . $ext . ");'";
-$small = "background-image: url(" . $path . $phase . "-sm" . $ext . ");'";
-
-?>
+$large = "<div data-source data-src='" . $path . $phase . "-lg" . $ext . "' media='" . $media . "'>";
+$small = "<div data-source data-src='" . $path . $phase . "-sm" . $ext . "'>";
+$fallback = "<noscript><img src='" . $path . $phase . "-sm" . $ext . "' alt='" . $alt . "'></noscript>";

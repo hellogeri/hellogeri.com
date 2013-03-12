@@ -3,10 +3,6 @@
 // File Settings
 $path = "./img/";
 $ext = ".jpg";
-	
-// Attributes
-$media = "(min-width: 20em)";
-$alt = "Illustration of St. John's, Newfoundland";
 
 // Time Zone
 date_default_timezone_set('America/St_Johns');

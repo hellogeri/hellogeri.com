@@ -25,10 +25,10 @@
 
 <style>
 .sel {
-    <?php print $small; ?>
+    <?php print $small; ?>  
 }
 
-@media screen and (min-width: 20em) {
+@media screen and (min-width: 35em) {
     .sel {
         <?php print $large; ?>
     }
@@ -56,7 +56,7 @@
 	<div role="banner" class="sel">
 		<section class="intro">
 			<h3>Illustration and Design from the Edge of the Earth</h3>
-			<p>I’m Geri Coady&mdash;a designer and illustrator living and working in St. John’s Newfoundland&mdash;the most easterly city in North America. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere dignissim mollis. Morbi vulputate felis dapibus lacus.</p>
+			<p>I’m Geri Coady&mdash;a designer and illustrator living and working in St. John’s Newfoundland&mdash;the most easterly city in North America. I've got an eye for detail, a passion for the web, and I'm ready to work with clients worldwide. <a href="#">Want to learn more?</a></p>
 		</section>
 	</div>
 </header>

@@ -187,12 +187,12 @@ div[role="banner"] {
 .intro {
 	max-width: 80%;
 	margin: 0 auto;
-	padding: 12em 3% 1em 3%;
+	padding: 11em 3% 1em 3%;
 	text-shadow: 0.1em 0.1em 0.2em rgb(0,30,50);
 }
 
 .intro h3 {
-	font-size: .95em;
+	font-size: 1.2em;
 }
 
 .intro p {
@@ -213,7 +213,7 @@ div[role="banner"] {
 
 article header h1 {
 	line-height: 1.2em;
-	margin: 1em 0 0 0;
+	margin: 0;
 }
 
 article header h1 a, article header h1 a:hover, article header h1 a:active {
@@ -222,6 +222,7 @@ article header h1 a, article header h1 a:hover, article header h1 a:active {
 
 article header p {
 	font-size: .85em;
+	margin: .5em 0 0 0;
 }
 
 .blogthumb {
@@ -235,7 +236,7 @@ article .excerpt-lg {
 
 article footer ul {
 	margin: 0;
-	padding: .5em 0 2em 0;
+	padding: .5em 0 4em 0;
 	list-style-type: none;
 }
 
@@ -601,13 +602,11 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 main[role="main"] {
 	width: 76.04166666%;
 	float: left;
-	border: 1px solid red;
 } 
 
 section[role="complementary"] {
 	width: 20.95833333%;
 	float: right;
-	border: 1px solid blue;
 } 
 
 

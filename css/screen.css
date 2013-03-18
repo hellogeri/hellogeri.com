@@ -40,6 +40,14 @@ a:active {
 	top: 1px;
 }
 
+textarea, input[type="text"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="search"] {
+	background-color: #fff;
+	border: 2px solid rgba(232,228,221,1);
+	border-radius: 5px;
+	padding: .5em;
+}
+
+
 
 /*---- Header -----*/
 
@@ -241,6 +249,17 @@ article header p {
 article .excerpt-lg {
 	font-size: 1.2em;
 }
+
+article h2 {
+	font-size: 1.2em;
+	padding: 1em 0 0 0;
+}
+
+article q {
+	font-size: 1.2em;
+	padding: 2em 0;
+}
+
 
 article footer ul {
 	margin: 0;

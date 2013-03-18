@@ -14,6 +14,7 @@ body {
 h1,h2,h3,h4,h5,h6  {
 	text-transform: uppercase;
 	font-weight: normal;
+	margin: 0;
 }
 
 img {
@@ -187,7 +188,7 @@ div[role="banner"] {
 .intro {
 	max-width: 80%;
 	margin: 0 auto;
-	padding: 11em 3% 1em 3%;
+	padding: 13em 3% 1em 3%;
 	text-shadow: 0.1em 0.1em 0.2em rgb(0,30,50);
 }
 
@@ -197,9 +198,16 @@ div[role="banner"] {
 
 .intro p {
 	font-size: .85em;
+	margin-top: 1.2em;
 }
 
+.intro p a {
+	color: rgba(255,255,255,.75);
+}
 
+.intro p a:hover {
+	color: rgba(255,255,255,1);
+}
 
 /*---- Container -----*/
 
@@ -251,7 +259,6 @@ padding: 0 5em 0 0;
 
 /*---- Complementary ----*/
 
-
 section[role="complementary"] a {
 	-webkit-transition: background .1s linear;
 	-moz-transition: background .1s linear;
@@ -262,6 +269,7 @@ section[role="complementary"] a {
 section[role="complementary"] h2 {
 	font-size: 1em;
 	color: rgba(178,43,20,1);
+	margin-bottom: .5em;
 }
 
 .availability {
@@ -294,7 +302,6 @@ section[role="complementary"] h2 {
 	margin: 0;
 	padding: 0; 
 }
-
 
 .categories ul {
     float: none;
@@ -335,10 +342,15 @@ section[role="complementary"] h2 {
 	
 .locations p {
 	font-size: 1em;
+	margin-top: 1.5em;
+}
+
+.locations ul {
+	margin-top: 1em;
 }
 
 .locations ul li {
-	margin: 0 0 1.5em 0;
+	margin: 0 0 1em 0;
 	background: url(../img/badge-vancouver.png) no-repeat 0;
 	padding-left: 80px;
 }
@@ -346,7 +358,6 @@ section[role="complementary"] h2 {
 .locations ul li p {
 	margin: 0;
 }
-
 
 
 /* Wide screen
@@ -585,7 +596,7 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 .intro {
 	max-width: 80%;
 	margin: 0 auto;
-	padding: 16.5em 3% 1em 3%;
+	padding: 18.5em 3% 1em 3%;
 	text-shadow: 0.1em 0.1em 0.2em rgb(0,30,50);
 }
 
@@ -595,6 +606,7 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 
 .intro p {
 	font-size: 1em;
+	margin-top: 1em;
 }
 
 /* -- Turn into two columns -- */ 

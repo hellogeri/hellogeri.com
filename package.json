@@ -1,0 +1,24 @@
+{
+  "name": "hellogeri.com",
+  "version": "0.0.0",
+  "description": "2013 Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+		"grunt": "~0.3.17",
+		"grunt-grunticon": "0.1.6"
+	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellogeri/hellogeri.com.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Geri Coady",
+  "license": "BSD",
+  "readmeFilename": "README",
+  "gitHead": "16155d36b0f00ad66c5befdb8cda270c727b38a8"
+}

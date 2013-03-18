@@ -47,6 +47,27 @@ textarea, input[type="text"], input[type="number"], input[type="email"], input[t
 	padding: .5em;
 }
 
+button[type="submit"] {
+	color: #fff;
+	background-color: rgba(178,43,20,1);
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Proxima-Nova-Light';
+	font-size: 1.2em;
+	padding: .5em;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-transition: background .1s linear;
+	-moz-transition: background .1s linear;
+	-o-transition: background .1s linear;
+	transition: background .1s linear;
+}
+
+button[type="submit"]:hover {
+	background-color: rgba(135,9,6,1);
+}
+
 
 
 /*---- Header -----*/
@@ -248,6 +269,11 @@ article header p {
 
 article .excerpt-lg {
 	font-size: 1.2em;
+}
+
+article h1 {
+	font-size: 1.2em;
+	padding: 1em 0 0 0;
 }
 
 article h2 {

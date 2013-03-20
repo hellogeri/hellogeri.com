@@ -47,6 +47,10 @@ textarea, input[type="text"], input[type="number"], input[type="email"], input[t
 	padding: .5em;
 }
 
+textarea:hover, input:hover {
+	border: 2px solid rgba(222,218,211,1);
+}
+
 button[type="submit"] {
 	color: #fff;
 	background-color: rgba(178,43,20,1);

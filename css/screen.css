@@ -253,7 +253,7 @@ div[role="banner"] {
 /*---- Main -----*/
 
 article header h1 {
-	line-height: 1.2em;
+	line-height: 1.25em;
 	margin: 0;
 }
 
@@ -262,7 +262,7 @@ article header h1 a, article header h1 a:hover, article header h1 a:active {
 }
 
 article header p {
-	font-size: .85em;
+	font-size: 1em;
 	margin: .5em 0 0 0;
 }
 
@@ -275,13 +275,8 @@ article .excerpt-lg {
 	font-size: 1.2em;
 }
 
-article h1 {
-	font-size: 1.2em;
-	padding: 1em 0 0 0;
-}
-
-article h2 {
-	font-size: 1.2em;
+article h1, article h2 {
+	font-size: 1.25em;
 	padding: 1em 0 0 0;
 }
 
@@ -289,7 +284,6 @@ article q {
 	font-size: 1.2em;
 	padding: 2em 0;
 }
-
 
 article footer ul {
 	margin: 0;
@@ -303,6 +297,84 @@ article footer ul li {
 
 article footer ul li:first-of-type {
 padding: 0 5em 0 0;
+}
+
+article footer {
+	border-top: 1px solid rgb(227,227,208);
+	width: 100%;
+}
+
+article footer p {
+	display: inline;
+	float: left;
+}
+
+.twitter-share-button {
+	float: right;
+	position: relative;
+	display: inline;
+	margin-top: 12px;
+	margin-left: 30px;
+}
+
+
+
+/*---- Blog -----*/
+
+section[role="note"] h1 {
+	font-size: 1.25em;
+	padding: 1em 0 0 0;
+}
+
+section[role="note"] article:first-of-type {
+	border: none;
+	padding-top: 0;
+	margin-bottom: 1em;
+	clear: both;
+}
+
+section[role="note"] article {
+	border-top: 1px solid rgb(227,227,208);
+	margin-bottom: 7em;
+	clear: both;
+}
+
+section[role="note"] article header {
+	width: 30%;
+	float: left;
+	position: relative;
+	margin-top: 0;
+}
+
+section[role="note"] article header ul {
+	list-style-type: none;
+}
+
+section[role="note"] article header ul li:last-of-type {
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+section[role="note"] .comment {
+	width: 65%;
+	float: right;
+	position: relative;
+}
+
+section[role="note"] article header img {
+	height: 50px;
+	width: 50px;
+	float: left;
+	position: relative;
+	background: rgb(255,255,255);
+	border: 1px solid rgb(227,227,208);
+	-moz-box-shadow: 0 0 2px rgba(150,150,150,.25);
+	-webkit-box-shadow: 0 0 2px rgba(150,150,150,.25);
+	box-shadow: 0 0 2px rgba(150,150,150,.25);
+	padding: 3px;
+	margin-right: 10px;
+	margin-top: 15px;
 }
 
 

@@ -113,7 +113,7 @@
 	<article>
 		<header>
 			<h1>The Problem With Style Guides</h1>
-			<p>Posted in <a href="/blog/advertising">Advertising, </a><a href="/blog/artanddesign">Art & Design, </a><a href="/blog/webdesign">Web Design, </a>on <time pubdate datetime="2012-10-30T12:23:31-03:30">Tuesday, October 30, 2012</time></p>
+			<p>Posted in <a href="/blog/advertising">Advertising</a>, <a href="/blog/artanddesign">Art & Design</a>, <a href="/blog/webdesign">Web Design</a>, on <time pubdate datetime="2012-10-30T12:23:31-03:30">Tuesday, October 30, 2012</time></p>
 		</header>
 		<p class="excerpt-lg">Last week, my friend <a href="http://rainypixels.com">Nishant Kothary</a> <a href="https://twitter.com/rainypixels/status/260867722357911553">tweeted</a> about how he had concluded that style guides are the &#8220;most useless design deliverables in existence.&#8221; Instead of discussing it over Twitter, we each decided to blog our thoughts. </p>
 		<p>I&#8217;ll say right away that I believe style guides for websites are headed down the right path and are an important asset. <a href="http://www.maban.co.uk/">Anna Debenham</a> wrote a <a href="http://24ways.org/2011/front-end-style-guides">great article</a> in last year&#8217;s 24 Ways about the benefits of front-end style guides. My problems with style guides stem from the traditional &#8220;graphic standards manuals&#8221; that are either written as though they are carved in stone and ruled with an iron first, or, style guides that seem like complete afterthoughts and aren&#8217;t enforced in any way at all.</p>

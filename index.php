@@ -39,7 +39,7 @@
 
 </head>
 
-<body>
+<body class="blog">
 
 <header class="doc-head">
 	<nav role="navigation">
@@ -130,9 +130,10 @@
 			<li>She sat down on the grass and looked at her companions, and they sat down and looked at her, and Toto found that for the first time in his life he was too tired to chase a butterfly that flew past his head.</li>
 			<li>"Oh, I'm not afraid," replied the Scarecrow.</li>
 		</ol>
-		<footer>
-			<p>Posted by <a href="/about">Geri Coady</a></p>
-			<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="hellogeri">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		<footer class="author">
+			<img src="img/geri-avatar.png">
+			<h3>About Me</h3>
+			<p>I’m Geri Coady—a designer and illustrator living and working in St. John’s Newfoundland—the most easterly city in North America. I've got an eye for detail, a passion for the web, and I'm ready to work with clients worldwide. <a href="about">Want to learn more?</a></p>
 		</footer>
 	</article>
 	
@@ -179,7 +180,7 @@
 			</ul>
 		</header>
 		<div class="comment">
-			<p>Good read, some interesting thoughts, and definitely agree.. a style guide is just that - a guide! </p>
+			<p>Good read, some interesting thoughts, and definitely agree.. a style guide is just that—a guide! </p>
 		</div>
 		</article>
 

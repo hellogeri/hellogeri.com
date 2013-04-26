@@ -47,6 +47,10 @@ textarea, input[type="text"], input[type="number"], input[type="email"], input[t
 	padding: .5em;
 }
 
+fieldset {
+	border: 0;
+}
+
 textarea:hover, input:hover {
 	border: 2px solid rgba(222,218,211,1);
 }
@@ -287,7 +291,7 @@ article q {
 
 article footer ul {
 	margin: 0;
-	padding: .5em 0 4em 0;
+	padding: .5em 0 3em 0;
 	list-style-type: none;
 }
 
@@ -296,73 +300,88 @@ article footer ul li {
 }
 
 article footer ul li:first-of-type {
-padding: 0 5em 0 0;
+	padding: 0 5em 0 0;
 }
 
-article footer {
-	border-top: 1px solid rgb(227,227,208);
-	width: 100%;
+article img {
+	max-width: 100%;
+	height: auto;
 }
 
-article footer p {
-	display: inline;
+
+
+/*---- Blog Page -----*/
+
+.author {
+	background-color: rgb(232,228,221);
+	padding: 1em;
+	display: block;
+	margin-top: 3em;
+}
+
+.author img {
 	float: left;
+	display: block;
+	padding: 0 1em .25em 0;
 }
 
-.twitter-share-button {
-	float: right;
-	position: relative;
-	display: inline;
-	margin-top: 12px;
-	margin-left: 30px;
+.author h3 {
+	font-size: 1em;
 }
 
+.author p {
+	margin-top: .5em;
+	margin-bottom: .25em;
+}
 
+.blog section[role="note"] {
+	margin-top: 3em;
+}
 
-/*---- Blog -----*/
-
-section[role="note"] h1 {
+.blog section[role="note"] h1 {
+	border-bottom: 1px solid rgb(227,227,208);
 	font-size: 1.25em;
-	padding: 1em 0 0 0;
-}
-
-section[role="note"] article:first-of-type {
-	border: none;
-	padding-top: 0;
-	margin-bottom: 1em;
+	width: 100%;
+	margin-bottom: .5em;
 	clear: both;
 }
 
-section[role="note"] article {
+.blog section[role="note"] article:first-of-type {
+	border: none;
+	padding-top: 0;
+	margin-bottom: 1em;
+}
+
+.blog section[role="note"] article {
 	border-top: 1px solid rgb(227,227,208);
 	margin-bottom: 7em;
 	clear: both;
 }
 
-section[role="note"] article header {
+.blog section[role="note"] article header {
 	width: 30%;
 	float: left;
 	position: relative;
 	margin-top: 0;
 }
 
-section[role="note"] article header ul {
+.blog section[role="note"] article header ul {
 	list-style-type: none;
 }
 
-section[role="note"] article header ul li:last-of-type {
+.blog section[role="note"] article header ul li:last-of-type {
 	font-size: .75em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
-section[role="note"] .comment {
+.blog section[role="note"] .comment {
 	width: 65%;
 	float: right;
 	position: relative;
 }
 
-section[role="note"] article header img {
+.blog section[role="note"] article header img {
 	height: 50px;
 	width: 50px;
 	float: left;
@@ -375,6 +394,87 @@ section[role="note"] article header img {
 	padding: 3px;
 	margin-right: 10px;
 	margin-top: 15px;
+}
+
+/*---- Comment Form ----*/
+
+
+.comment_box {
+width: 72%;
+float: left;
+position: relative;
+padding : 1em 0;
+}
+
+.comment_box h1 {
+font-size: 1.25em;
+border-bottom: 1px solid rgb(227,227,208);
+width: 100%;
+margin-bottom: 1em;
+}
+
+form#comment_form {
+width: 100%;
+}
+
+form#comment_form fieldset {
+padding-bottom: 20px;
+}
+
+form#comment_form fieldset:first-of-type {
+border-bottom: 1px solid rgb(227,227,208);
+margin-bottom: 15px;
+}
+
+form#comment_form fieldset ul {
+list-style: none;
+padding-left: 0;
+}
+
+form#comment_form fieldset ul li {
+float: left;
+}
+
+form#comment_form fieldset label {
+font-size: .85em;
+line-height: 3;
+width: 250px;
+float: left;
+}
+
+form#comment_form input, form#comment_form #captcha {
+outline: none;
+font-size: .85em;
+padding: 5px;
+width: 400px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+border: 1px solid rgb(227,227,208);
+transition: all .25s ease-in-out;
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+}
+
+form#comment_form textarea {
+outline: none;
+font-size: .85em;
+padding: 5px;
+width: 96%;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+border: 1px solid rgb(227,227,208);
+transition: all .25s ease-in-out;
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+}
+
+form#comment_form input:focus, form#comment_form textarea:focus {
+outline: none;
+-webkit-box-shadow: 0px 0px 5px rgb(178,43,20);
+-moz-box-shadow: 0px 0px 5px rgb(178,43,20);
+box-shadow: 0px 0px 5px rgb(178,43,20);
 }
 
 

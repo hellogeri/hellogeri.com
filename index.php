@@ -64,11 +64,11 @@
 <div class="contain">
 
 <main role="main">
-	<article>
+	<article class="preview">
 		<header>
 			<a href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" class="blogthumb" alt="Germany &amp; Beyond Tellerrand"></a>
 			<h1><a href="#">Germany &amp; Beyond Tellerrand</a></h1>
-			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">Wednesday, November 28, 2012</time></p>
+			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
 		</header>
 		<p class="excerpt-lg">I recently got back from Düsseldorf, Germany where I was invited to speak at the second Beyond Tellerrand web conference, hosted by the lovely Marc Thiele.</p>
 		<p class="excerpt-sm">Beyond Tellerrand was my first 45-minute talk — an expansion of my twenty minute talk called Colouring the Web, which I did for the first time at Go Beyond Pixels earlier this year…</p>
@@ -79,11 +79,11 @@
 			</ul>
 		</footer>
 	</article>
-	<article>
+	<article class="preview">
 		<header>
 			<a href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" class="blogthumb" alt="Germany &amp; Beyond Tellerrand"></a>
 			<h1><a href="#">What Goes Up, Doesn't Have to Come Down</a></h1>
-			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">Wednesday, November 28, 2012</time></p>
+			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
 		</header>
 		<p class="excerpt-lg">Admittedly, I’m a bit of a pack rat. I’m not talking hoarders-style, but I do have trouble parting with little things that are memorable for me. Not photos—I’m that person who keeps every movie ticket stub, boarding pass, and concert ticket neatly in a scrapbook to reflect on every now and then.</p>
 		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
@@ -94,11 +94,11 @@
 			</ul>
 		</footer>
 	</article>
-	<article>
+	<article class="preview">
 		<header>
 			<a href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" class="blogthumb" alt="Germany &amp; Beyond Tellerrand"></a>
 			<h1><a href="#">What Goes Up, Doesn't Have to Come Down</a></h1>
-			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">Wednesday, November 28, 2012</time></p>
+			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
 		</header>
 		<p class="excerpt-lg">Admittedly, I’m a bit of a pack rat. I’m not talking hoarders-style, but I do have trouble parting with little things that are memorable for me. Not photos—I’m that person who keeps every movie ticket stub, boarding pass, and concert ticket neatly in a scrapbook to reflect on every now and then.</p>
 		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
@@ -110,10 +110,10 @@
 		</footer>
 	</article>
 
-	<article>
+	<article class="post">
 		<header>
 			<h1>The Problem With Style Guides</h1>
-			<p>Posted in <a href="/blog/advertising">Advertising</a>, <a href="/blog/artanddesign">Art & Design</a>, <a href="/blog/webdesign">Web Design</a>, on <time pubdate datetime="2012-10-30T12:23:31-03:30">Tuesday, October 30, 2012</time></p>
+			<p>Posted in <a href="/blog/advertising">Advertising</a>, <a href="/blog/artanddesign">Art & Design</a>, <a href="/blog/webdesign">Web Design</a>, on <time pubdate datetime="2012-10-30T12:23:31-03:30">October 30, 2012</time></p>
 		</header>
 		<p class="excerpt-lg">Last week, my friend <a href="http://rainypixels.com">Nishant Kothary</a> <a href="https://twitter.com/rainypixels/status/260867722357911553">tweeted</a> about how he had concluded that style guides are the &#8220;most useless design deliverables in existence.&#8221; Instead of discussing it over Twitter, we each decided to blog our thoughts. </p>
 		<p>I&#8217;ll say right away that I believe style guides for websites are headed down the right path and are an important asset. <a href="http://www.maban.co.uk/">Anna Debenham</a> wrote a <a href="http://24ways.org/2011/front-end-style-guides">great article</a> in last year&#8217;s 24 Ways about the benefits of front-end style guides. My problems with style guides stem from the traditional &#8220;graphic standards manuals&#8221; that are either written as though they are carved in stone and ruled with an iron first, or, style guides that seem like complete afterthoughts and aren&#8217;t enforced in any way at all.</p>
@@ -122,6 +122,7 @@
 		<h2>Stifling Creativity</h2>
 		<p>Working at an advertising agency, I&#8217;ve had to work with many graphic standards manuals from large companies and organizations. Most guides share common elements like rules for approved typefaces, colour palettes, and logo usage; but others have been dozens and dozens of pages in length, spelling out every detail of what&#8217;s allowed and what&#8217;s forbidden. These guides can be so strict that it can be virtually impossible to introduce a little creativity. You might not be allowed to place a logo over a photograph, even if it&#8217;s perfectly legible. You might be forced to place a logo at the bottom right-hand side of a page every time, even though it might look better in your design if it was centered on the page. Often, you&#8217;ll need to send your work back for approval, and if you don&#8217;t adhere to the rules, it&#8217;ll be rejected. While it&#8217;s very important to keep the most critical elements of a brand consistent across all materials, there should be more opportunity for discussion with the brand guardians if new ideas are proposed.</p>
 		<p><img src="http://hellogeri.com/images/uploads/blog/blog_ucla_styleguide.jpg" alt="UCLA Style Guide" width="675" height="561"  /></p>
+		<p>Style guides are intended to protect the integrity of the brand when in the hands of other designers. They&#8217;re meant to make workflow faster and to reduce the number of decisions a designer has to make. While the intentions are good, most style guides that I&#8217;ve worked with have created problems, too.</p>
 		<h2>Being a &#8220;Brand Guardian&#8221; Isn&#8217;t Easy</h2>
 		<p>If you&#8217;re publishing a style guide intended for use by designers and developers on a internal team, there&#8217;s a decent chance that it will be followed. The heavily-referenced <a href="http://www.starbucks.com/static/reference/styleguide/">Starbucks style guide</a> comes to mind, here. If you&#8217;re creating a style guide that&#8217;s going to be shared with people outside of the design department who may not even have design skills, things can quickly fall apart. One of the worst offenders I&#8217;ve seen for this are universities. </p>
 		<p>Here is a sample of some code. It is a fancy <code>&lt;blockquote&gt;</code>.</p>
@@ -140,10 +141,8 @@
 </section>
 
 <section role="note">
-
 	<h1>7 Comments</h1>
-
-	<article id="r1245">
+	<article class="comment" id="r1245">
 		<header>
 			<img src="http://www.gravatar.com/avatar/414baf1998458160c4cb3c37f6876eb4" alt="Jacob Halton">
 			<ul>
@@ -151,14 +150,14 @@
 				<li><time pubdate datetime="2012-10-30T16:07:20-03:30">Oct 30/12 at 4:07PM</time></li>
 			</ul>
 		</header>
-		<div class="comment">
+		<div class="comment-body">
 			<p>A well designed brand style guide maintained by a good creative director/team will hold up the brand's integrity.</p>
 			<p>A style guide is meant to be just that, a guide. If you use it as some kind of "bible" for the brand, it'll just get stale and boring really fast.</p>
 			<p>To NOT have brand guidelines is asking for non-cohesive communication material and different variations on the brand depending on what designer is working on it. Then again, even a good brand guideline in the hands of a bad designer is worthless for anything more than maybe light consistency.</p>
 		</div>
 	</article>
 
-	<article id="r1274">
+	<article class="comment" id="r1274">
 		<header>
 			<img src="http://www.gravatar.com/avatar/482e98f1d5afb6d335ffb746e4f6ec57" alt="Ben">
 			<ul>
@@ -166,12 +165,12 @@
 				<li><time pubdate datetime="2012-11-07T04:27:04-03:30">Nov 7/12 at 4:27AM</time></li>
 			</ul>
 		</header>
-		<div class="comment">
+		<div class="comment-body">
 			<p>Thanks Geri, this is a nice round up and references quite a few sources I'm happy to know about.</p>
 		</div>
 	</article>
 
-	<article id="r1327">
+	<article class="comment" id="r1327">
 		<header>
 			<img src="http://www.gravatar.com/avatar/11ff4245cfa2e3c160f9bc9349a9bcfc" alt="Krishna Solanki">
 			<ul>
@@ -179,7 +178,7 @@
 			<li><time pubdate datetime="2012-12-05T06:48:03-03:30">Dec 5/12 at 6:48AM</time></li>
 			</ul>
 		</header>
-		<div class="comment">
+		<div class="comment-body">
 			<p>Good read, some interesting thoughts, and definitely agree.. a style guide is just that—a guide! </p>
 		</div>
 		</article>

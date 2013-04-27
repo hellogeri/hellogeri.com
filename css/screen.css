@@ -256,6 +256,20 @@ div[role="banner"] {
 
 /*---- Main -----*/
 
+article.preview {
+ 	margin: 2em 0 0 0;
+ 	padding: 0 0 2em 0;
+ 	border-bottom: 1px solid rgb(227,227,208);
+ }
+
+article.preview:first-of-type {
+ 	margin-top: 0;
+ }
+ 
+article.preview:last-of-type {
+ 	border: 0;
+ } 
+
 article header h1 {
 	line-height: 1.25em;
 	margin: 0;
@@ -273,6 +287,7 @@ article header p {
 .blogthumb {
 	margin: auto 0;
 	float: right;
+	margin-top: 2em;
 }
 
 article .excerpt-lg {
@@ -281,7 +296,7 @@ article .excerpt-lg {
 
 article h1, article h2 {
 	font-size: 1.25em;
-	padding: 1em 0 0 0;
+	margin: 1.75em 0 1em 0;
 }
 
 article q {
@@ -289,32 +304,29 @@ article q {
 	padding: 2em 0;
 }
 
+.post img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 1em;
+}
+
 article footer ul {
 	margin: 0;
-	padding: .5em 0 3em 0;
+	padding: 0;
 	list-style-type: none;
 }
 
 article footer ul li {
 	display: inline;
+	margin: 0 0 0 2em;
 }
-
-article footer ul li:first-of-type {
-	padding: 0 5em 0 0;
-}
-
-article img {
-	max-width: 100%;
-	height: auto;
-}
-
 
 
 /*---- Blog Page -----*/
 
 .author {
 	background-color: rgb(232,228,221);
-	padding: 1em;
+	padding: 1.5em;
 	display: block;
 	margin-top: 3em;
 }
@@ -323,10 +335,12 @@ article img {
 	float: left;
 	display: block;
 	padding: 0 1em .25em 0;
+	margin: 0;
 }
 
 .author h3 {
 	font-size: 1em;
+	margin-top: .25em;
 }
 
 .author p {
@@ -352,7 +366,7 @@ article img {
 	margin-bottom: 1em;
 }
 
-.blog section[role="note"] article {
+.comment {
 	border-top: 1px solid rgb(227,227,208);
 	margin-bottom: 7em;
 	clear: both;
@@ -375,7 +389,7 @@ article img {
 	letter-spacing: 1px;
 }
 
-.blog section[role="note"] .comment {
+.blog section[role="note"] .comment-body {
 	width: 65%;
 	float: right;
 	position: relative;
@@ -400,81 +414,75 @@ article img {
 
 
 .comment_box {
-width: 72%;
-float: left;
-position: relative;
-padding : 1em 0;
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 1em 0;
 }
 
 .comment_box h1 {
-font-size: 1.25em;
-border-bottom: 1px solid rgb(227,227,208);
-width: 100%;
-margin-bottom: 1em;
-}
-
-form#comment_form {
-width: 100%;
+	font-size: 1.25em;
+	border-bottom: 1px solid rgb(227,227,208);
+	margin-bottom: 1em;
 }
 
 form#comment_form fieldset {
-padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 form#comment_form fieldset:first-of-type {
-border-bottom: 1px solid rgb(227,227,208);
-margin-bottom: 15px;
+	border-bottom: 1px solid rgb(227,227,208);
+	margin-bottom: 15px;
 }
 
 form#comment_form fieldset ul {
-list-style: none;
-padding-left: 0;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
 }
 
 form#comment_form fieldset ul li {
-float: left;
+	margin-bottom: .85em;
+	margin-top: 0;
 }
 
 form#comment_form fieldset label {
-font-size: .85em;
-line-height: 3;
-width: 250px;
-float: left;
+	line-height: 3;
+	float: left;
 }
 
 form#comment_form input, form#comment_form #captcha {
-outline: none;
-font-size: .85em;
-padding: 5px;
-width: 400px;
--moz-border-radius: 2px;
--webkit-border-radius: 2px;
-border-radius: 2px;
-border: 1px solid rgb(227,227,208);
-transition: all .25s ease-in-out;
--webkit-transition: all .25s ease-in-out;
--moz-transition: all .25s ease-in-out;
+	outline: none;
+	font-size: .85em;
+	width: 100%;
+	border: 1px solid rgb(227,227,208);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
 }
 
 form#comment_form textarea {
-outline: none;
-font-size: .85em;
-padding: 5px;
-width: 96%;
--moz-border-radius: 2px;
--webkit-border-radius: 2px;
-border-radius: 2px;
-border: 1px solid rgb(227,227,208);
-transition: all .25s ease-in-out;
--webkit-transition: all .25s ease-in-out;
--moz-transition: all .25s ease-in-out;
+	outline: none;
+	font-size: .85em;
+	padding: 5px;
+	width: 100%;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid rgb(227,227,208);
+	transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
 }
 
 form#comment_form input:focus, form#comment_form textarea:focus {
-outline: none;
--webkit-box-shadow: 0px 0px 5px rgb(178,43,20);
--moz-box-shadow: 0px 0px 5px rgb(178,43,20);
-box-shadow: 0px 0px 5px rgb(178,43,20);
+	outline: none;
+	-webkit-box-shadow: 0px 0px 5px rgb(178,43,20);
+	-moz-box-shadow: 0px 0px 5px rgb(178,43,20);
+	box-shadow: 0px 0px 5px rgb(178,43,20);
 }
 
 

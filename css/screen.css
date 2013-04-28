@@ -368,19 +368,28 @@ article footer ul li {
 
 .comment {
 	border-top: 1px solid rgb(227,227,208);
-	margin-bottom: 7em;
 	clear: both;
 }
 
 .blog section[role="note"] article header {
+	width: 100%;
+	margin-top: 1.5em;
+}
+
+.blog section[role="note"] article p:last-of-type {
+	margin-bottom: 2em;
+}
+
+/* .blog section[role="note"] article header {
 	width: 30%;
 	float: left;
 	position: relative;
 	margin-top: 0;
-}
+} */
 
 .blog section[role="note"] article header ul {
 	list-style-type: none;
+	margin-bottom: 0;
 }
 
 .blog section[role="note"] article header ul li:last-of-type {
@@ -390,12 +399,32 @@ article footer ul li {
 }
 
 .blog section[role="note"] .comment-body {
+	width: 100%;
+	float: left; 
+}
+
+/* .blog section[role="note"] .comment-body {
 	width: 65%;
 	float: right;
 	position: relative;
-}
+} */
 
 .blog section[role="note"] article header img {
+	height: 32px;
+	width: 32px;
+	float: left;
+	position: relative;
+	background: rgb(255,255,255);
+	border: 1px solid rgb(227,227,208);
+	-moz-box-shadow: 0 0 2px rgba(150,150,150,.25);
+	-webkit-box-shadow: 0 0 2px rgba(150,150,150,.25);
+	box-shadow: 0 0 2px rgba(150,150,150,.25);
+	padding: .25em;
+	margin-right: 1em;
+	margin-top: 0px; /* Wide-screen 15px */
+}
+
+/* .blog section[role="note"] article header img {
 	height: 50px;
 	width: 50px;
 	float: left;
@@ -408,7 +437,7 @@ article footer ul li {
 	padding: 3px;
 	margin-right: 10px;
 	margin-top: 15px;
-}
+} */
 
 /*---- Comment Form ----*/
 
@@ -428,6 +457,8 @@ article footer ul li {
 
 form#comment_form fieldset {
 	padding-bottom: 20px;
+	padding-left: 0;
+
 }
 
 form#comment_form fieldset:first-of-type {
@@ -488,6 +519,7 @@ form#comment_form input:focus, form#comment_form textarea:focus {
 
 /*---- Complementary ----*/
 
+
 section[role="complementary"] a {
 	-webkit-transition: background .1s linear;
 	-moz-transition: background .1s linear;
@@ -499,6 +531,7 @@ section[role="complementary"] h2 {
 	font-size: 1em;
 	color: rgba(178,43,20,1);
 	margin-bottom: .5em;
+	text-align: center;
 }
 
 .availability {
@@ -541,6 +574,7 @@ section[role="complementary"] h2 {
     -moz-column-gap: .5em;
     column-count: 2;
     column-gap: .5em;
+    text-align: center; /* remove wide */
 }
 
 .categories ul li {
@@ -555,7 +589,7 @@ section[role="complementary"] h2 {
 	color: rgba(25,25,25,1);
 	border-bottom: none; 
 	display: block;
-	padding: .5em 0 .5em .5em;
+	padding: .5em 0 .5em 0; /* .5em 0 .5em 0; */
 	text-decoration: none;
 }
 
@@ -563,29 +597,52 @@ section[role="complementary"] h2 {
 	background: rgba(210,200,185,.15);
 }
 
+.categories p {
+	text-align: center;
+}
+
 .locations {
-	padding: 1em 0 0 0;
-	width: auto;
 	margin: 0 auto;
 }
 	
 .locations p {
-	font-size: 1em;
+	font-size: .75em; /* 1em */
 	margin-top: 1.5em;
 }
 
 .locations ul {
-	margin-top: 1em;
+	width: 100%;
+	margin: 0 auto;
 }
 
+.locations ul li {
+	margin: auto 0;
+	background: url(../img/badge-vancouver.png) no-repeat center top;
+	padding-left: 0px;
+	float: left;
+	border: 1px solid red;
+	clear: right;
+	width: 32%;
+	padding-top: 5em;
+}
+
+/*
 .locations ul li {
 	margin: 0 0 1em 0;
 	background: url(../img/badge-vancouver.png) no-repeat 0;
 	padding-left: 80px;
-}
+} */
 
 .locations ul li p {
 	margin: 0;
+	text-align: center;
+}
+
+.locations p {
+	clear: both; 
+	display: block; 
+	text-align: center;
+	font-size: 1em;
 }
 
 

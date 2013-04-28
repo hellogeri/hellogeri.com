@@ -264,24 +264,19 @@
 		<h2>I'm speaking at…</h2>
 		<ul>
 			<li>
-				<p><a href="#">FITC Toronto</a></p>
-				<p>April 21&ndash;23, 2013</p>
-				<p>Toronto, ON</p>
-			</li>
-			<li>
 				<p><a href="#">Interlink</a></p>
 				<p>June 5&ndash;6, 2013</p>
 				<p>Vancouver, BC</p>
 			</li>
 			<li>
 				<p><a href="#">HPX Digital</a></p>
-				<p>October 23&ndash;25, 2013</p>
+				<p>Oct. 23&ndash;25, 2013</p>
 				<p>Halifax, NS</p>
 			</li>
 			<li>
 				<p><a href="#">Future of Web Design</a></p>
-				<p>October 8&ndash;9, 2013</p>
-				<p>New York City, NY</p>
+				<p>Oct. 8&ndash;9, 2013</p>
+				<p>New York, NY</p>
 			</li>
 		</ul>
 		<p><a href="/speaking">Past Events</a></p>

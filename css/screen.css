@@ -251,10 +251,12 @@ div[role="banner"] {
 .contain {
 	margin: 0 auto;
 	max-width: 90%;
-	padding: 3em 0;
+	padding: 3em 0 1em 0;
 }
 
+
 /*---- Main -----*/
+
 
 article.preview {
  	margin: 2em 0 0 0;
@@ -288,6 +290,7 @@ article header p {
 	margin: auto 0;
 	float: right;
 	margin-top: 2em;
+	display: none;
 }
 
 article .excerpt-lg {
@@ -516,6 +519,10 @@ form#comment_form input:focus, form#comment_form textarea:focus {
 	box-shadow: 0px 0px 5px rgb(178,43,20);
 }
 
+form#comment_form fieldset:last-of-type {
+	padding-bottom: 3em;
+}
+
 
 /*---- Complementary ----*/
 
@@ -537,6 +544,7 @@ section[role="complementary"] h2 {
 .availability {
 	margin-bottom: 2em;
 	text-align: center;
+	display: none;
 }
 
 .availability a {
@@ -603,10 +611,12 @@ section[role="complementary"] h2 {
 
 .locations {
 	margin: 0 auto;
+	margin-top: 2em;
+	display: none;
 }
 	
 .locations p {
-	font-size: .75em; /* 1em */
+	font-size: .85em;
 	margin-top: 1.5em;
 }
 
@@ -618,12 +628,15 @@ section[role="complementary"] h2 {
 .locations ul li {
 	margin: auto 0;
 	background: url(../img/badge-vancouver.png) no-repeat center top;
-	padding-left: 0px;
 	float: left;
-	border: 1px solid red;
 	clear: right;
 	width: 32%;
 	padding-top: 5em;
+	padding-bottom: 1.5em;
+}
+
+.locations ul li:nth-child(1) {
+	padding-right: 2%;
 }
 
 /*
@@ -642,7 +655,6 @@ section[role="complementary"] h2 {
 	clear: both; 
 	display: block; 
 	text-align: center;
-	font-size: 1em;
 }
 
 
@@ -906,6 +918,12 @@ section[role="complementary"] {
 	width: 20.95833333%;
 	float: right;
 } 
+
+/* -- Display Availability -- */
+
+.availability {
+	sdisplay: block;
+}
 
 
 /* -- Turn into single column -- */ 

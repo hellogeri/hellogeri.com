@@ -66,7 +66,7 @@
 <main role="main">
 	<article class="preview">
 		<header>
-			<a href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" class="blogthumb" alt="Germany &amp; Beyond Tellerrand"></a>
+			<a class="blogthumb" href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" alt="Germany &amp; Beyond Tellerrand"></a>
 			<h1><a href="#">Germany &amp; Beyond Tellerrand</a></h1>
 			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
 		</header>
@@ -74,8 +74,23 @@
 		<p class="excerpt-sm">Beyond Tellerrand was my first 45-minute talk — an expansion of my twenty minute talk called Colouring the Web, which I did for the first time at Go Beyond Pixels earlier this year…</p>
 		<footer>
 			<ul role="navigation">
-				<li><a href="#">Continue Reading…</a></li>
-				<li><a href="#">5 Comments</a></li>
+				<li><a class="icon-read" href="#">Continue Reading…</a></li>
+				<li><a class="icon-comment" href="#">55 Comments</a></li>
+			</ul>
+		</footer>
+	</article>
+	<article class="preview">
+		<header>
+			<a class="blogthumb" href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" alt="Germany &amp; Beyond Tellerrand"></a>
+			<h1><a href="#">What Goes Up, Doesn't Have to Come Down</a></h1>
+			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
+		</header>
+		<p class="excerpt-lg">Admittedly, I’m a bit of a pack rat. I’m not talking hoarders-style, but I do have trouble parting with little things that are memorable for me. Not photos—I’m that person who keeps every movie ticket stub, boarding pass, and concert ticket neatly in a scrapbook to reflect on every now and then.</p>
+		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
+		<footer>
+			<ul role="navigation">
+				<li><a class="icon-read" href="#">Continue Reading…</a></li>
+				<li><a class="icon-comment" href="#">9 Comments</a></li>
 			</ul>
 		</footer>
 	</article>
@@ -89,23 +104,8 @@
 		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
 		<footer>
 			<ul role="navigation">
-				<li><a href="#">Continue Reading…</a></li>
-				<li><a href="#">5 Comments</a></li>
-			</ul>
-		</footer>
-	</article>
-	<article class="preview">
-		<header>
-			<a href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" class="blogthumb" alt="Germany &amp; Beyond Tellerrand"></a>
-			<h1><a href="#">What Goes Up, Doesn't Have to Come Down</a></h1>
-			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
-		</header>
-		<p class="excerpt-lg">Admittedly, I’m a bit of a pack rat. I’m not talking hoarders-style, but I do have trouble parting with little things that are memorable for me. Not photos—I’m that person who keeps every movie ticket stub, boarding pass, and concert ticket neatly in a scrapbook to reflect on every now and then.</p>
-		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
-		<footer>
-			<ul role="navigation">
-				<li><a href="#">Continue Reading…</a></li>
-				<li><a href="#">5 Comments</a></li>
+				<li><a class="icon-read" href="#">Continue Reading…</a></li>
+				<li><a class="icon-comment" href="#">5 Comments</a></li>
 			</ul>
 		</footer>
 	</article>

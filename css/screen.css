@@ -1,3 +1,14 @@
+/*---- Clearfix -----*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
 /*---- Global -----*/
 
 html, body {
@@ -81,7 +92,7 @@ button[type="submit"]:hover {
 .contain-main {
 	margin: 0 auto;
 	max-width: 90%;
-	padding: 3em 0 1em 0;
+	/* padding: 3em 0 1em 0 */
 }
 
 .contain-complementary {
@@ -96,6 +107,7 @@ button[type="submit"]:hover {
 .doc-head {
 	color: #fff;
 	background: #000;
+	margin-bottom: 3em;
 }
 
 nav[role="navigation"]{
@@ -295,7 +307,7 @@ article header p {
 .blogthumb {
 	margin: auto 0;
 	float: right;
-	margin-top: 1em;
+	display: none;
 }
 
 article .excerpt-lg {
@@ -687,29 +699,6 @@ section[role="complementary"] h2 {
 }
 
 
-/* Wide screen
-
-.locations {
-	margin-top: 2.5em;
-}
-	
-.locations p {
-	font-size: 1em;
-}
-
-.locations ul li {
-	margin: 0 0 1.5em 0;
-	background: url(../img/badge-vancouver.png) no-repeat 0;
-	padding-left: 80px;
-}
-
-.locations ul li p {
-	margin: 0;
-}
-
-*/
-
-
 
 /*---- Footer -----*/
 
@@ -952,19 +941,14 @@ section[role="complementary"] h2 {
 	text-align: left;
 }
 
-/* -- Display Availability -- */
-
-.availability {
-	display: block;
-}
-
-.locations {
-	display: block;
+.contain-complementary {
+	margin-top: 0;
+	padding-top: 0;
+	background: transparent;
 }
 
 
 /* -- Turn into single column -- */ 
-
 
 
 .categories ul {
@@ -989,6 +973,48 @@ section[role="complementary"] h2 {
 	padding: .5em 0 .5em .5em;
 }
 
+
+.locations {
+	padding: 1em 0 0 0;
+	width: auto;
+	margin: 0 auto;
+}
+
+.locations p {
+	font-size: 1em;
+	margin-top: 1.5em;
+	text-align: left;
+}
+
+.locations ul {
+	margin-top: 1em;
+}
+
+.locations ul li {
+	margin: 0 0 1em 0;
+	background: url(../img/badge-vancouver.png) no-repeat 0;
+	padding-left: 80px;
+	width: auto;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.locations ul li p {
+	margin: 0;
+	text-align: left;
+}
+
+
+
+
+
+/*---- Main -----*/
+
+.blogthumb {
+	display: block;
+}
+
+
 /* -- Stretch out footer nav horizontally -- */ 
 
 .doc-foot ul {
@@ -1012,8 +1038,8 @@ section[role="complementary"] h2 {
 	float: right;
 }
 
-}
 
+}
 
 
 

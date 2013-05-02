@@ -62,7 +62,7 @@
 </header>
 
 <div class="contain-main">
-<main role="main">
+<main role="main" class="clearfix">
 	<article class="preview">
 		<header>
 			<a class="blogthumb" href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" alt="Germany &amp; Beyond Tellerrand"></a>

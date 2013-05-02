@@ -89,17 +89,18 @@ button[type="submit"]:hover {
 
 /*---- Containers -----*/
 
-.contain-main {
+main[role="main"] {
+	display: block;
 	margin: 0 auto;
 	max-width: 90%;
-	/* padding: 3em 0 1em 0 */
-}
+} 
 
-.contain-complementary {
-	margin: 0 auto;
-	max-width: 100%;
-	padding: 2em 5% 3em 5%;
+section[role="complementary"] {
 	background: rgb(232,228,221);
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 3em;
+	max-width: 100%;
 }
 
 /*---- Header -----*/
@@ -655,11 +656,7 @@ section[role="complementary"] h2 {
 	margin: 0 auto;
 	margin-top: 2em;
 }
-	
-.locations p {
-	font-size: .85em;
-	margin-top: 1.5em;
-}
+
 
 .locations ul {
 	width: 100%;
@@ -687,16 +684,20 @@ section[role="complementary"] h2 {
 	padding-left: 80px;
 } */
 
+.locations p {
+	clear: both; 
+	display: block; 
+	text-align: center;
+	font-size: .85em;
+	margin-top: 1.5em;
+	margin-bottom: 0;
+}
+
 .locations ul li p {
 	margin: 0;
 	text-align: center;
 }
 
-.locations p {
-	clear: both; 
-	display: block; 
-	text-align: center;
-}
 
 
 
@@ -706,10 +707,10 @@ footer[role="contentinfo"] {
 	margin: 0 auto;
 	max-width: 100%;
 	overflow: auto;
-	padding: 2em 5% 3em 5%;
-	background: rgba(0,0,0,1);
+	padding: 3em 5% 2em 5%;
 	text-align: center;
 	clear: both;
+	background: rgb(232,228,221) url(../img/footer-bg.png) no-repeat top;
 }
 
 footer[role="contentinfo"] a, footer[role="contentinfo"] a:active {
@@ -723,6 +724,10 @@ footer[role="contentinfo"] a, footer[role="contentinfo"] a:active {
 
 footer[role="contentinfo"] a:hover {
 	color: rgba(222,218,211,1);
+}
+
+.doc-foot {
+	background-color: rgb(0,0,0);
 }
 
 .doc-foot ul, .social ul {
@@ -928,28 +933,37 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 /* -- Turn into two columns -- */ 
 
 main[role="main"] {
-	width: 76.04166666%;
+	width: 63.04166666%;
 	float: left;
+	margin-left:5%;
+	max-width:90%;
 } 
 
 section[role="complementary"] {
 	width: 20.95833333%;
 	float: right;
-} 
+	background: #ccc;
+	background: transparent;
+	margin-right:5%;
+	max-width:100%;
+	padding-right: 0;
+	padding-left: 0;
+}
 
 section[role="complementary"] h2 {
 	text-align: left;
 }
 
-.contain-complementary {
-	margin-top: 0;
-	padding-top: 0;
-	background: transparent;
-}
-
 
 /* -- Turn into single column -- */ 
 
+.availability {
+	text-align: left;
+}
+
+.categories p {
+	text-align: left;
+}
 
 .categories ul {
     -webkit-column-count: 1;
@@ -1016,6 +1030,10 @@ section[role="complementary"] h2 {
 
 
 /* -- Stretch out footer nav horizontally -- */ 
+
+footer[role="contentinfo"] {
+	background: transparent url(../img/footer-bg.png) no-repeat top;
+}
 
 .doc-foot ul {
 	width: auto;

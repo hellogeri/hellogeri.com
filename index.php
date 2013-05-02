@@ -61,7 +61,6 @@
 	</div>
 </header>
 
-<div class="contain-main">
 <main role="main" class="clearfix">
 	<article class="preview">
 		<header>
@@ -137,97 +136,94 @@
 		</footer>
 	</article>
 	
-
-<section role="note">
-	<h1>7 Comments</h1>
-	<article class="comment" id="r1245">
-		<header>
-			<img src="http://www.gravatar.com/avatar/414baf1998458160c4cb3c37f6876eb4" alt="Jacob Halton">
-			<ul>
-				<li>Jacob Halton</li>
-				<li><time pubdate datetime="2012-10-30T16:07:20-03:30">Oct 30/12 at 4:07PM</time></li>
-			</ul>
-		</header>
-		<div class="comment-body">
-			<p>A well designed brand style guide maintained by a good creative director/team will hold up the brand's integrity.</p>
-			<p>A style guide is meant to be just that, a guide. If you use it as some kind of "bible" for the brand, it'll just get stale and boring really fast.</p>
-			<p>To NOT have brand guidelines is asking for non-cohesive communication material and different variations on the brand depending on what designer is working on it. Then again, even a good brand guideline in the hands of a bad designer is worthless for anything more than maybe light consistency.</p>
-		</div>
-	</article>
-
-	<article class="comment" id="r1274">
-		<header>
-			<img src="http://www.gravatar.com/avatar/482e98f1d5afb6d335ffb746e4f6ec57" alt="Ben">
-			<ul>
-				<li>Ben</li>
-				<li><time pubdate datetime="2012-11-07T04:27:04-03:30">Nov 7/12 at 4:27AM</time></li>
-			</ul>
-		</header>
-		<div class="comment-body">
-			<p>Thanks Geri, this is a nice round up and references quite a few sources I'm happy to know about.</p>
-		</div>
-	</article>
-
-	<article class="comment" id="r1327">
-		<header>
-			<img src="http://www.gravatar.com/avatar/11ff4245cfa2e3c160f9bc9349a9bcfc" alt="Krishna Solanki">
-			<ul>
-			<li>Krishna Solanki</li>
-			<li><time pubdate datetime="2012-12-05T06:48:03-03:30">Dec 5/12 at 6:48AM</time></li>
-			</ul>
-		</header>
-		<div class="comment-body">
-			<p>Good read, some interesting thoughts, and definitely agree.. a style guide is just that—a guide! </p>
-		</div>
+	<section role="note">
+		<h1>7 Comments</h1>
+		<article class="comment" id="r1245">
+			<header>
+				<img src="http://www.gravatar.com/avatar/414baf1998458160c4cb3c37f6876eb4" alt="Jacob Halton">
+				<ul>
+					<li>Jacob Halton</li>
+					<li><time pubdate datetime="2012-10-30T16:07:20-03:30">Oct 30/12 at 4:07PM</time></li>
+				</ul>
+			</header>
+			<div class="comment-body">
+				<p>A well designed brand style guide maintained by a good creative director/team will hold up the brand's integrity.</p>
+				<p>A style guide is meant to be just that, a guide. If you use it as some kind of "bible" for the brand, it'll just get stale and boring really fast.</p>
+				<p>To NOT have brand guidelines is asking for non-cohesive communication material and different variations on the brand depending on what designer is working on it. Then again, even a good brand guideline in the hands of a bad designer is worthless for anything more than maybe light consistency.</p>
+			</div>
 		</article>
 
-</section>
+		<article class="comment" id="r1274">
+			<header>
+				<img src="http://www.gravatar.com/avatar/482e98f1d5afb6d335ffb746e4f6ec57" alt="Ben">
+				<ul>
+					<li>Ben</li>
+					<li><time pubdate datetime="2012-11-07T04:27:04-03:30">Nov 7/12 at 4:27AM</time></li>
+				</ul>
+			</header>
+			<div class="comment-body">
+				<p>Thanks Geri, this is a nice round up and references quite a few sources I'm happy to know about.</p>
+			</div>
+		</article>
+		
+		<article class="comment" id="r1327">
+			<header>
+				<img src="http://www.gravatar.com/avatar/11ff4245cfa2e3c160f9bc9349a9bcfc" alt="Krishna Solanki">
+				<ul>
+				<li>Krishna Solanki</li>
+				<li><time pubdate datetime="2012-12-05T06:48:03-03:30">Dec 5/12 at 6:48AM</time></li>
+				</ul>
+			</header>
+			<div class="comment-body">
+				<p>Good read, some interesting thoughts, and definitely agree.. a style guide is just that—a guide! </p>
+			</div>
+			</article>
+			
+	</section>
 
-<section class="comment_box">
-<h1>Leave a Comment</h1>
-	<form id="comment_form" method="post" action="http://hellogeri.com">
+	<section class="comment_box">
+	<h1>Leave a Comment</h1>
+		<form id="comment_form" method="post" action="http://hellogeri.com">
 	
-		<fieldset>
-			<ul>
-			<li>
-				<label for="comment_name">Your Name:</label>
-				<input id="comment_name" name="name" type="text" placeholder="Enter your name or handle here" required>
-			</li>
-			<li>
-				<label for="comment_website">Your Website:</label>
-				<input id="comment_website" name="website" type="text" placeholder="Enter your URL here">
-			</li>
-			<li>
-				<label for="comment_email">Your E-mail (Not Published):</label>
-				<input id="comment_email" name="email" type="email" placeholder="name@domain.com" required>
-			</li>
-			</ul>
-		</fieldset>
+			<fieldset>
+				<ul>
+				<li>
+					<label for="comment_name">Your Name:</label>
+					<input id="comment_name" name="name" type="text" placeholder="Enter your name or handle here" required>
+				</li>
+				<li>
+					<label for="comment_website">Your Website:</label>
+					<input id="comment_website" name="website" type="text" placeholder="Enter your URL here">
+				</li>
+				<li>
+					<label for="comment_email">Your E-mail (Not Published):</label>
+					<input id="comment_email" name="email" type="email" placeholder="name@domain.com" required>
+				</li>
+				</ul>
+			</fieldset>
 
-		<fieldset>
-			<label for="comment_content" class="textarea">Comment</label>
-			<textarea id="comment_content" name="comment" rows="5" required></textarea>
-		</fieldset>
+			<fieldset>
+				<label for="comment_content" class="textarea">Comment</label>
+				<textarea id="comment_content" name="comment" rows="5" required></textarea>
+			</fieldset>
 
-		<fieldset>
-			<p>Please enter the word you see in the image below:</p>
-			<label><img src="http://hellogeri.com/images/captchas/1363571282.0088.jpg" width="140" height="30" style="border:0;" alt=" " /></label>
-			<input id="captcha" type="text" name="captcha" value="" size="20" maxlength="20">
-		</fieldset>
+			<fieldset>
+				<p>Please enter the word you see in the image below:</p>
+				<label><img src="http://hellogeri.com/images/captchas/1363571282.0088.jpg" width="140" height="30" style="border:0;" alt=" " /></label>
+				<input id="captcha" type="text" name="captcha" value="" size="20" maxlength="20">
+			</fieldset>
 
-		<fieldset>
-			<button type="submit">Add Comment</button>
-		</fieldset>
-	</form>
-</section>
+			<fieldset>
+				<button type="submit">Add Comment</button>
+			</fieldset>
+		</form>
+	</section>
 </main>
-</div>
 
-<div class="contain-complementary">
 <section role="complementary">
 	<section class="availability">
 		<a href="#">Available For Hire</a>
-		<p>Accepting work from April 2013</p>
+		<p>Accepting work from July 2013</p>
 	</section>
 
 	<section class="categories">
@@ -267,7 +263,6 @@
 		<p><a href="/speaking">Past Events</a></p>
 	</section>
 </section>
-</div>
 
 <footer role="contentinfo">
 	<nav class="doc-foot">

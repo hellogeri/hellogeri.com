@@ -76,7 +76,20 @@ button[type="submit"]:hover {
 	background-color: rgba(135,9,6,1);
 }
 
+/*---- Containers -----*/
 
+.contain-main {
+	margin: 0 auto;
+	max-width: 90%;
+	padding: 3em 0 1em 0;
+}
+
+.contain-complementary {
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 2em 5% 3em 5%;
+	background: rgb(232,228,221);
+}
 
 /*---- Header -----*/
 
@@ -246,14 +259,6 @@ div[role="banner"] {
 	color: rgba(255,255,255,1);
 }
 
-/*---- Container -----*/
-
-.contain {
-	margin: 0 auto;
-	max-width: 90%;
-	padding: 3em 0 1em 0;
-}
-
 
 /*---- Main -----*/
 
@@ -382,7 +387,7 @@ article footer ul li:last-of-type a {
 }
 
 .blog section[role="note"] h1 {
-	border-bottom: 1px solid rgb(227,227,208);
+	border-bottom: 1px solid rgb(232,228,221);
 	font-size: 1.25em;
 	width: 100%;
 	margin-bottom: .5em;
@@ -396,7 +401,7 @@ article footer ul li:last-of-type a {
 }
 
 .comment {
-	border-top: 1px solid rgb(227,227,208);
+	border-top: 1px solid rgb(232,228,221);
 	clear: both;
 }
 
@@ -444,7 +449,7 @@ article footer ul li:last-of-type a {
 	float: left;
 	position: relative;
 	background: rgb(255,255,255);
-	border: 1px solid rgb(227,227,208);
+	border: 1px solid rgb(232,228,221);
 	-moz-box-shadow: 0 0 2px rgba(150,150,150,.25);
 	-webkit-box-shadow: 0 0 2px rgba(150,150,150,.25);
 	box-shadow: 0 0 2px rgba(150,150,150,.25);
@@ -611,7 +616,7 @@ section[role="complementary"] h2 {
 }
 
 .categories ul li {
-	border-bottom: solid 1px rgb(227,227,208);
+	border-bottom: solid 1px rgb(232,228,221);
 }
 
 .categories ul li:nth-child(4), .categories ul li:nth-child(8) {

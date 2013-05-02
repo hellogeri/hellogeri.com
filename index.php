@@ -61,8 +61,7 @@
 	</div>
 </header>
 
-<div class="contain">
-
+<div class="contain-main">
 <main role="main">
 	<article class="preview">
 		<header>
@@ -138,7 +137,6 @@
 		</footer>
 	</article>
 	
-</section>
 
 <section role="note">
 	<h1>7 Comments</h1>
@@ -185,18 +183,6 @@
 
 </section>
 
-<form id="comment_form" method="post" action="http://hellogeri.com/"  >
-<div class='hiddenFields'>
-<input type="hidden" name="ACT" value="1" />
-<input type="hidden" name="RET" value="http://hellogeri.com/blog/view/the_problem_with_style_guides" />
-<input type="hidden" name="URI" value="blog/view/the_problem_with_style_guides" />
-<input type="hidden" name="PRV" value="" />
-<input type="hidden" name="XID" value="" />
-<input type="hidden" name="entry_id" value="77" />
-<input type="hidden" name="site_id" value="1" />
-</div>
-
-
 <section class="comment_box">
 <h1>Leave a Comment</h1>
 	<form id="comment_form" method="post" action="http://hellogeri.com">
@@ -233,12 +219,11 @@
 			<button type="submit">Add Comment</button>
 		</fieldset>
 	</form>
-	</form>
-
 </section>
-
 </main>
+</div>
 
+<div class="contain-complementary">
 <section role="complementary">
 	<section class="availability">
 		<a href="#">Available For Hire</a>

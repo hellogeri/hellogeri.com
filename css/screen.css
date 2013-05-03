@@ -155,35 +155,85 @@ nav[role="navigation"] ul {
     column-gap: .5em;
 }
   
-nav[role="navigation"] ul li a {  /* this stuff changes */
+nav[role="navigation"] ul li a {
 	display: block;
 	padding-top: 1em; 
 	margin-bottom: 1em;
 }
 
+
+/* Modernizr SVG + Fallbacks */
+
 .icon-illustration {
-	background: url(../img/icon-illustration.png) no-repeat 50% 0;
+	margin: 0;
+   background-image: url(../img/icon-illustration.png);
+   background-position: 50% 0;
+   background-repeat: no-repeat;
+}
+
+.svg .icon-illustration {
+	background-image: url(../img/icon-illustration-on.svg);
+}
+
+.svg .icon-illustration:hover {
+	background-image: url(../img/icon-illustration.svg);
 }
 
 .icon-design {
-	background: url(../img/icon-design.png) no-repeat 50% 0;
+	margin: 0;
+	background: url(../img/icon-design.png);
+	background-position: 50% 0;
+   background-repeat: no-repeat;
+}
+
+.svg .icon-design {
+	background: url(../img/icon-design.svg) no-repeat 50% 0;
 }
 
 .icon-photo {
-	background: url(../img/icon-photo.png) no-repeat 50% 0;
+	margin: 0;
+	background: url(../img/icon-photo.png);
+	background-position: 50% 0;
+   background-repeat: no-repeat;
+}
+
+.svg .icon-photo {
+	background: url(../img/icon-photo.svg) no-repeat 50% 0;
 }
 
 .icon-about {
-	background: url(../img/icon-about.png) no-repeat 50% 0;
+	margin: 0;
+	background: url(../img/icon-about.png);
+	background-position: 50% 0;
+   background-repeat: no-repeat;
+}
+
+.svg .icon-about {
+	background: url(../img/icon-about.svg) no-repeat 50% 0;
 }
 
 .icon-blog {
-	background: url(../img/icon-blog.png) no-repeat 50% 0;
+	margin: 0;
+	background: url(../img/icon-blog.png);
+	background-position: 50% 0;
+   background-repeat: no-repeat;
+}
+
+.svg .icon-blog {
+	background: url(../img/icon-blog.svg) no-repeat 50% 0;
 }
 
 .icon-contact {
-	background: url(../img/icon-contact.png) no-repeat 50% 0;
+	margin: 0;
+	background: url(../img/icon-contact.png);
+	background-position: 50% 0;
+   background-repeat: no-repeat;
 }
+
+.svg .icon-contact {
+	background: url(../img/icon-contact.svg) no-repeat 50% 0;
+}
+
 
 
 /* Wide screen
@@ -617,15 +667,15 @@ section[role="complementary"] h2 {
 }
 
 .categories ul {
-    float: none;
-    width: 100%;
-    -webkit-column-count: 2;
-    -webkit-column-gap: .5em;
-    -moz-column-count: 2;
-    -moz-column-gap: .5em;
-    column-count: 2;
-    column-gap: .5em;
-    text-align: center; /* remove wide */
+   float: none;
+   width: 100%;
+   -webkit-column-count: 2;
+   -webkit-column-gap: .5em;
+	-moz-column-count: 2;
+	-moz-column-gap: .5em;
+	column-count: 2;
+	column-gap: .5em;
+	text-align: center; /* remove wide */
 }
 
 .categories ul li {
@@ -887,9 +937,19 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 	background: url(../img/icon-illustration.png) no-repeat 0;
 }
 
+.svg .icon-illustration {
+	margin: 0;
+	background: url(../img/icon-illustration.svg) no-repeat 0;
+}
+
 .icon-design {
 	margin: 0;
 	background: url(../img/icon-design.png) no-repeat 0;
+}
+
+.svg .icon-design {
+	margin: 0;
+	background: url(../img/icon-design.svg) no-repeat 0;
 }
 
 .icon-photo {
@@ -897,9 +957,19 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 	background: url(../img/icon-photo.png) no-repeat 0;
 }
 
+.svg .icon-photo {
+	margin: 0;
+	background: url(../img/icon-photo.svg) no-repeat 0;
+}
+
 .icon-about {
 	margin: 0;
 	background: url(../img/icon-about.png) no-repeat 0;
+}
+
+.svg .icon-about {
+	margin: 0;
+	background: url(../img/icon-about.svg) no-repeat 0;
 }
 
 .icon-blog {
@@ -907,9 +977,24 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 	background: url(../img/icon-blog.png) no-repeat 0;
 }
 
+.no-svg .icon-blog {
+	margin: 0;
+	background: url(../img/icon-blog.png) no-repeat 0;
+}
+
+.svg .icon-blog {
+	margin: 0;
+	background: url(../img/icon-blog.svg) no-repeat 0;
+}
+
 .icon-contact {
 	margin: 0;
 	background: url(../img/icon-contact.png) no-repeat 0;
+}
+
+.svg .icon-contact {
+	margin: 0;
+	background: url(../img/icon-contact.svg) no-repeat 0;
 }
 
 /* -- Bump down banner text -- */ 

@@ -23,6 +23,8 @@
 <link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
 <![endif]-->
 
+<script src="scripts/modernizr.js"></script>
+
 <style>
 .sel {
     <?php print $small; ?>  

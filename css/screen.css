@@ -172,11 +172,17 @@ nav[role="navigation"] ul li a {
 }
 
 .svg .icon-illustration {
-	background-image: url(../img/icon-illustration-on.svg);
+	background-image: url(../img/icon-illustration.svg);
+	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	-o-transition: opacity .1s linear;
+	transition: opacity .1s linear;
+	opacity: .85;
 }
 
 .svg .icon-illustration:hover {
-	background-image: url(../img/icon-illustration.svg);
+	background-image: url(../img/icon-illustration-on.svg);
+	opacity: 1;
 }
 
 .icon-design {
@@ -234,44 +240,8 @@ nav[role="navigation"] ul li a {
 	background: url(../img/icon-contact.svg) no-repeat 50% 0;
 }
 
-
-
-/* Wide screen
-
-.icon-illustration {
-	margin: 0;
-	background: url(../img/icon-illustration.png) no-repeat 0;
-}
-
-.icon-design {
-	margin: 0;
-	background: url(../img/icon-design.png) no-repeat 0;
-}
-
-.icon-photo {
-	margin: 0;
-	background: url(../img/icon-photo.png) no-repeat 0;
-}
-
-.icon-about {
-	margin: 0;
-	background: url(../img/icon-about.png) no-repeat 0;
-}
-
-.icon-blog {
-	margin: 0;
-	background: url(../img/icon-blog.png) no-repeat 0;
-}
-
-.icon-contact {
-	margin: 0;
-	background: url(../img/icon-contact.png) no-repeat 0;
-}
-
-*/
-
 nav[role="navigation"] ul li a {
-	color: rgba(255,255,255,1);
+	color: rgba(222,218,211,1);
 	text-decoration: none;
 	position: relative;
 	-webkit-transition: color .1s linear;
@@ -281,7 +251,7 @@ nav[role="navigation"] ul li a {
 }
 
 nav[role="navigation"] ul li a:hover {
-	color: rgba(222,218,211,1);
+	color: rgba(255,255,255,1);
 }
 
 div[role="banner"] {
@@ -817,24 +787,53 @@ footer[role="contentinfo"] a:hover {
 	background-image: url(../img/social-twitter-off.png);
 }
 
+.svg .twitter {
+	background-image: url(../img/social-twitter-off.svg);
+}
+
 .dribbble {
 	background-image: url(../img/social-dribbble-off.png);
+}
+
+.svg .dribbble {
+	background-image: url(../img/social-dribbble-off.svg);
 }
 
 .flickr {
 	background-image: url(../img/social-flickr-off.png);
 }
 
+.svg .flickr {
+	background-image: url(../img/social-flickr-off.svg);
+}
+
 .lanyrd {
 	background-image: url(../img/social-lanyrd-off.png);
+}
+
+.svg .lanyrd {
+	background-image: url(../img/social-lanyrd-off.svg);
 }
 
 .rdio {
 	background-image: url(../img/social-rdio-off.png);
 }
 
+.svg .rdio {
+	background-image: url(../img/social-rdio-off.svg);
+}
+
 .zerply {
 	background-image: url(../img/social-zerply-off.png);
+}
+
+.svg .zerply {
+	background-image: url(../img/social-zerply-off.svg);
+	opacity: .8;
+}
+
+.svg .zerply:hover {
+	opacity: 1;
 }
 
 

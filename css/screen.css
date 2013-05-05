@@ -124,16 +124,15 @@ nav[role="navigation"]{
 }
 
 nav[role="navigation"] h1 {
-	margin: 0 auto;
 	left: 50%;
-	margin: 0 0 0 -62.5px;
+	margin: 0 auto 0 -35px;
 	position: absolute; 
 	z-index: 1;
-	bottom: -4em;
-	width: 128px;
-	height: 128px;
+	bottom: -2em;
+	width: 75px;
+	height: 75px;
 	text-indent: -9999px;
-	background: transparent url(../img/logo.png) no-repeat 50% 0;
+	background: transparent url(../img/logo-small.png) no-repeat 50% 0;
 }
 
 nav[role="navigation"] ul {
@@ -943,6 +942,18 @@ nav[role="navigation"] h1 {
 	top: .75em;
 }
 
+nav[role="navigation"] h1 {
+	left: 50%;
+	margin: 0 0 0 -62.5px;
+	position: absolute; 
+	z-index: 1;
+	bottom: -4em;
+	width: 128px;
+	height: 128px;
+	text-indent: -9999px;
+	background: transparent url(../img/logo.png) no-repeat 50% 0;
+}
+
 nav[role="navigation"] ul {
 	margin: 0;
 	padding: 0;
@@ -1071,8 +1082,8 @@ section[role="complementary"] {
 	float: right;
 	background: #ccc;
 	background: transparent;
-	margin-right:5%;
-	max-width:100%;
+	margin-right: 5%;
+	max-width: 100%;
 	padding-right: 0;
 	padding-left: 0;
 }

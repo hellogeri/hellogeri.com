@@ -74,7 +74,7 @@
 		<p class="excerpt-sm">Beyond Tellerrand was my first 45-minute talk — an expansion of my twenty minute talk called Colouring the Web, which I did for the first time at Go Beyond Pixels earlier this year…</p>
 		<footer>
 			<ul role="navigation">
-				<li><a class="icon-read" href="#">Continue Reading…</a></li>
+				<li><a class="icon-continue" href="#">Continue Reading…</a></li>
 				<li><a class="icon-comment" href="#">55 Comments</a></li>
 			</ul>
 		</footer>
@@ -89,7 +89,7 @@
 		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
 		<footer>
 			<ul role="navigation">
-				<li><a class="icon-read" href="#">Continue Reading…</a></li>
+				<li><a class="icon-continue" href="#">Continue Reading…</a></li>
 				<li><a class="icon-comment" href="#">9 Comments</a></li>
 			</ul>
 		</footer>
@@ -104,7 +104,7 @@
 		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
 		<footer>
 			<ul role="navigation">
-				<li><a class="icon-read" href="#">Continue Reading…</a></li>
+				<li><a class="icon-continue" href="#">Continue Reading…</a></li>
 				<li><a class="icon-comment" href="#">5 Comments</a></li>
 			</ul>
 		</footer>
@@ -252,14 +252,14 @@
 				<p>Vancouver, BC</p>
 			</li>
 			<li>
-				<p><a href="#">HPX Digital</a></p>
-				<p>Oct. 23&ndash;25, 2013</p>
-				<p>Halifax, NS</p>
-			</li>
-			<li>
 				<p><a href="#">Future of Web Design</a></p>
 				<p>Oct. 8&ndash;9, 2013</p>
 				<p>New York, NY</p>
+			</li>
+			<li>
+				<p><a href="#">HPX Digital</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>Halifax, NS</p>
 			</li>
 		</ul>
 		<p><a href="/speaking">Past Events</a></p>

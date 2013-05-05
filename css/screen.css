@@ -138,21 +138,17 @@ nav[role="navigation"] h1 {
 
 nav[role="navigation"] ul {
 	margin: 0 auto;
-	padding: 0;  	/* padding: 0 0 3em 0; */
+	padding: 0 0 3em 0;
 	list-style-type: none;
 	font-size: 1em;
-	width: 100%;
-}
-
-nav[role="navigation"] ul {
-    float: none;
-    width: 90%;
-    -webkit-column-count: 2;
-    -webkit-column-gap: .5em;
-    -moz-column-count: 2;
-    -moz-column-gap: .5em;
-    column-count: 2;
-    column-gap: .5em;
+	float: none;
+	width: 90%;
+	-webkit-column-count: 2;
+	-webkit-column-gap: .5em;
+	-moz-column-count: 2;
+	-moz-column-gap: .5em;
+	column-count: 2;
+	column-gap: .5em;
 }
   
 nav[role="navigation"] ul li a {
@@ -172,17 +168,7 @@ nav[role="navigation"] ul li a {
 }
 
 .svg .icon-illustration {
-	background-image: url(../img/icon-illustration.svg);
-	-webkit-transition: opacity .1s linear;
-	-moz-transition: opacity .1s linear;
-	-o-transition: opacity .1s linear;
-	transition: opacity .1s linear;
-	opacity: .85;
-}
-
-.svg .icon-illustration:hover {
-	background-image: url(../img/icon-illustration-on.svg);
-	opacity: 1;
+	background-image: url(../img/icon-illustration.svg) no-repeat 50% 0;
 }
 
 .icon-design {
@@ -379,14 +365,14 @@ article footer ul li:last-of-type a {
 	padding-left: 1.75em;
 }
 
-.icon-read {
+.icon-continue {
 	margin: 0;
-	background: url(../img/icon-read.png) no-repeat 0;
+	background: url(../img/icon-continue.svg) no-repeat 0;
 }
 
 .icon-comment {
 	margin: 0;
-	background: url(../img/icon-comment.png) no-repeat 0;
+	background: url(../img/icon-comment.svg) no-repeat 0;
 }
 
 /*---- Blog Page -----*/
@@ -590,6 +576,9 @@ form#comment_form fieldset:last-of-type {
 
 /*---- Complementary ----*/
 
+section[role="complementary"] {
+	padding-top: 3em;
+}
 
 section[role="complementary"] a {
 	-webkit-transition: background .1s linear;
@@ -630,6 +619,10 @@ section[role="complementary"] h2 {
 	text-decoration: none;
 }
 
+.categories {
+	margin-top: 3em;
+}
+
 .categories ul, .locations ul {
 	list-style: none;
 	margin: 0;
@@ -649,7 +642,7 @@ section[role="complementary"] h2 {
 }
 
 .categories ul li {
-	border-bottom: solid 1px rgb(232,228,221);
+	border-bottom: solid 1px rgb(222,218,201);
 }
 
 .categories ul li:nth-child(4), .categories ul li:nth-child(8) {
@@ -665,7 +658,7 @@ section[role="complementary"] h2 {
 }
 
 .categories ul li a:hover {
-	background: rgba(210,200,185,.15);
+	background: rgba(210,200,185,.25);
 }
 
 .categories p {
@@ -674,7 +667,7 @@ section[role="complementary"] h2 {
 
 .locations {
 	margin: 0 auto;
-	margin-top: 2em;
+	margin-top: 3em;
 }
 
 
@@ -734,7 +727,7 @@ footer[role="contentinfo"] {
 }
 
 footer[role="contentinfo"] a, footer[role="contentinfo"] a:active {
-	color: rgba(255,255,255,1);
+	color: rgba(222,218,211,1);
 	text-decoration: none;
 	-webkit-transition: color .1s linear;
 	-moz-transition: color .1s linear;
@@ -743,7 +736,7 @@ footer[role="contentinfo"] a, footer[role="contentinfo"] a:active {
 }
 
 footer[role="contentinfo"] a:hover {
-	color: rgba(222,218,211,1);
+	color: rgba(255,255,255,1);
 }
 
 .doc-foot {
@@ -789,6 +782,15 @@ footer[role="contentinfo"] a:hover {
 
 .svg .twitter {
 	background-image: url(../img/social-twitter-off.svg);
+	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	-o-transition: opacity .1s linear;
+	transition: opacity .1s linear;
+	opacity: .85;
+}
+
+.svg .twitter:hover {
+	opacity: 1;
 }
 
 .dribbble {
@@ -797,6 +799,15 @@ footer[role="contentinfo"] a:hover {
 
 .svg .dribbble {
 	background-image: url(../img/social-dribbble-off.svg);
+	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	-o-transition: opacity .1s linear;
+	transition: opacity .1s linear;
+	opacity: .85;
+}
+
+.svg .dribbble:hover {
+	opacity: 1;
 }
 
 .flickr {
@@ -805,6 +816,15 @@ footer[role="contentinfo"] a:hover {
 
 .svg .flickr {
 	background-image: url(../img/social-flickr-off.svg);
+	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	-o-transition: opacity .1s linear;
+	transition: opacity .1s linear;
+	opacity: .85;
+}
+
+.svg .flickr:hover {
+	opacity: 1;
 }
 
 .lanyrd {
@@ -813,6 +833,15 @@ footer[role="contentinfo"] a:hover {
 
 .svg .lanyrd {
 	background-image: url(../img/social-lanyrd-off.svg);
+	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	-o-transition: opacity .1s linear;
+	transition: opacity .1s linear;
+	opacity: .85;
+}
+
+.svg .lanyrd:hover {
+	opacity: 1;
 }
 
 .rdio {
@@ -821,6 +850,15 @@ footer[role="contentinfo"] a:hover {
 
 .svg .rdio {
 	background-image: url(../img/social-rdio-off.svg);
+	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	-o-transition: opacity .1s linear;
+	transition: opacity .1s linear;
+	opacity: .85;
+}
+
+.svg .rdio:hover {
+	opacity: 1;
 }
 
 .zerply {
@@ -829,7 +867,11 @@ footer[role="contentinfo"] a:hover {
 
 .svg .zerply {
 	background-image: url(../img/social-zerply-off.svg);
-	opacity: .8;
+	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	-o-transition: opacity .1s linear;
+	transition: opacity .1s linear;
+	opacity: .85;
 }
 
 .svg .zerply:hover {
@@ -874,7 +916,7 @@ a:active.nav-toggle {
 .hide-me {
 	overflow: hidden;
 }
-@media screen and (max-width: 69.9375em) {
+@media screen and (max-width: 56.9375em) {
 	.hide-me {
 		max-height: 0;
 		display: block;
@@ -885,7 +927,8 @@ a:active.nav-toggle {
 }
 
 
-@media screen and (min-width: 70em) {
+
+@media screen and (min-width: 57em) {
 
 
 /* -- Stretch out top navigation horizontally -- */ 
@@ -1041,8 +1084,20 @@ section[role="complementary"] h2 {
 
 /* -- Turn into single column -- */ 
 
+section[role="complementary"] {
+	padding-top: 0;
+}
+
 .availability {
 	text-align: left;
+}
+
+.availability a {
+	font-size: 1em;
+}
+
+.categories {
+	margin-top: 2.5em;
 }
 
 .categories p {
@@ -1069,13 +1124,19 @@ section[role="complementary"] h2 {
 
 .categories ul li a {
 	padding: .5em 0 .5em .5em;
+	color: rgba(25,25,25,1);
+
+}
+
+.categories ul li a:hover {
+	background: rgba(210,200,185,.15);
 }
 
 
 .locations {
 	padding: 1em 0 0 0;
 	width: auto;
-	margin: 0 auto;
+	margin: 2em auto 0 auto;
 }
 
 .locations p {
@@ -1143,6 +1204,24 @@ footer[role="contentinfo"] {
 
 }
 
+
+@media screen and (min-width: 63em) {
+
+.availability a {
+	font-size: 1.2em;
+}
+
+}
+
+
+
+@media screen and (min-width: 66em) {
+
+.availability a {
+	font-size: 1.25em;
+}
+
+}
 
 
 

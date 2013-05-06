@@ -68,7 +68,7 @@ textarea:hover, input:hover {
 
 button[type="submit"] {
 	color: #fff;
-	background-color: rgba(178,43,20,1);
+	background-color: rgba(182,35,39,1);
 	border: 0;
 	border-radius: 5px;
 	cursor: pointer;
@@ -125,12 +125,12 @@ nav[role="navigation"]{
 
 nav[role="navigation"] h1 {
 	left: 50%;
-	margin: 0 auto 0 -35px;
+	margin: 0 auto 0 -48px;
 	position: absolute; 
 	z-index: 1;
-	bottom: -2em;
-	width: 75px;
-	height: 75px;
+	bottom: -3em;
+	width: 100px;
+	height: 100px;
 	text-indent: -9999px;
 	background: transparent url(../img/logo-small.png) no-repeat 50% 0;
 }
@@ -671,7 +671,7 @@ section[role="complementary"] h2 {
 
 
 .locations ul {
-	width: 100%;
+	max-width: 26.5em;
 	margin: 0 auto;
 }
 
@@ -689,13 +689,6 @@ section[role="complementary"] h2 {
 	padding-right: 2%;
 }
 
-/*
-.locations ul li {
-	margin: 0 0 1em 0;
-	background: url(../img/badge-vancouver.png) no-repeat 0;
-	padding-left: 80px;
-} */
-
 .locations p {
 	clear: both; 
 	display: block; 
@@ -709,6 +702,14 @@ section[role="complementary"] h2 {
 	margin: 0;
 	text-align: center;
 }
+
+.book {
+	margin: 3em auto 0 auto;
+	overflow: auto;
+	text-align: center;
+	max-width: 26em;
+}
+
 
 
 
@@ -750,14 +751,15 @@ footer[role="contentinfo"] a:hover {
 }
 
 .doc-foot ul {
-    float: none;
-    width: 100%;
-    -webkit-column-count: 2;
-    -webkit-column-gap: .5em;
-    -moz-column-count: 2;
-    -moz-column-gap: .5em;
-    column-count: 2;
-    column-gap: .5em;
+	margin: 0 auto 1.5em auto;
+	float: none;
+	max-width: 26em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: .5em;
+	-moz-column-count: 2;
+	-moz-column-gap: .5em;
+	column-count: 2;
+	column-gap: .5em;
 }
 
 .social ul li {
@@ -1174,6 +1176,10 @@ section[role="complementary"] {
 	text-align: left;
 }
 
+.book {
+	text-align: left;
+}
+
 
 
 
@@ -1192,7 +1198,7 @@ footer[role="contentinfo"] {
 }
 
 .doc-foot ul {
-	width: auto;
+	max-width: 100%;
 	float: left;
 	-webkit-column-count: 1;
 	-webkit-column-gap: 0;

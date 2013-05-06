@@ -30,7 +30,7 @@
     <?php print $small; ?>  
 }
 
-@media screen and (min-width: 35em) {
+@media screen and (min-width: 57em) {
     .sel {
         <?php print $large; ?>
     }
@@ -269,6 +269,11 @@
 		<h2>Pocket Guide to Colour Accessibility</h2>
 		<a href="http://www.fivesimplesteps.com/products/colour-accessibility"><img src="img/GeriCoady-ColourAccessibility.png" alt="Pocket Guide to Colour Accessibility by Geri Coady"></a>
 		<p>My new book, <em>Pocket Guide to Colour Accessibility</em>, will help you create beautiful designs that are accessible to people with colour-blindness. Grab a copy over at <a href="http://www.fivesimplesteps.com/products/colour-accessibility">Five Simple Steps!</a></p>
+	</section>
+	
+	<section class="skills">
+		<h2>What I Can Do</h2>
+		<p>I've been drawing and painting since I was old enough to hold a crayon. Fortunately, I like to think I've improved <a href="#">since then</a>. I love experimenting with all styles of illustration — from cartoons to realistic paintings, I can bring any idea to life.</p>
 	</section>
 
 </section>

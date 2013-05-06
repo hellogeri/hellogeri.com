@@ -711,6 +711,13 @@ section[role="complementary"] h2 {
 }
 
 
+.skills {
+	margin: 3em auto 0 auto;
+	overflow: auto;
+	text-align: center;
+	max-width: 26em;
+}
+
 
 
 
@@ -917,6 +924,8 @@ a:active.nav-toggle {
 .hide-me {
 	overflow: hidden;
 }
+
+
 @media screen and (max-width: 56.9375em) {
 	.hide-me {
 		max-height: 0;
@@ -1180,7 +1189,9 @@ section[role="complementary"] {
 	text-align: left;
 }
 
-
+.skills {
+	text-align: left;
+}
 
 
 

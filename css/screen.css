@@ -149,6 +149,15 @@ nav[role="navigation"] ul {
 	column-count: 2;
 	column-gap: .5em;
 }
+
+.csscolumns nav[role="navigation"] ul {
+	-webkit-column-count: 2;
+	-webkit-column-gap: .5em;
+	-moz-column-count: 2;
+	-moz-column-gap: .5em;
+	column-count: 2;
+	column-gap: .5em;
+}
   
 nav[role="navigation"] ul li a {
 	display: block;
@@ -1123,12 +1132,21 @@ nav[role="navigation"] ul {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	-webkit-column-count: 1;  /*---- Is this the right way to turn off columns? ----*/
+	-webkit-column-count: 1;
    -webkit-column-gap: 0;
    -moz-column-count: 1;
    -moz-column-gap: 0;
    column-count: 1;
    column-gap: 0;
+}
+
+.csscolumns nav[role="navigation"] ul {
+	-webkit-column-count: 1;
+	-webkit-column-gap: 0;
+	-moz-column-count: 1;
+	-moz-column-gap: 0;
+	column-count: 1;
+	column-gap: 0;
 }
 
 nav[role="navigation"] ul li {

@@ -64,6 +64,19 @@
 </header>
 
 <main role="main" class="clearfix">
+
+	<ul class="thumbs">
+		<li><a href="#"><img src="img/thumbs/puremadlike01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/london01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/becki01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/dave01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/hardboiled01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/hbcartoons01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/spiderman01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/bikerberry01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/arkells01_s.jpg" alt="Description"></a></li>
+	</ul>
+
 	<article class="preview">
 		<header>
 			<a class="blogthumb" href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" alt="Germany &amp; Beyond Tellerrand"></a>

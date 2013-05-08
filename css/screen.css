@@ -18,7 +18,7 @@ html, body {
 
 body {
 	background: rgb(242,238,231);
-	color: rgba(25,25,25,1);
+	color: rgb(25,25,25);
 	font: 100%/1.5 "Proxima-Nova-Light", sans-serif;
 }
 
@@ -256,7 +256,6 @@ div[role="banner"] {
 	height: 29.5em;
 	overflow: auto;
 	padding: 0;
-	/* background: rgba(27,55,73,1) url(../img/banner-dusk.jpg) no-repeat 50% 82%; */	
 	background-repeat: no-repeat;
 	background-position: 50% 82%;
 	color: rgb(255,255,255);
@@ -491,28 +490,14 @@ article footer ul li:last-of-type a {
 	position: relative;
 	background: rgb(255,255,255);
 	border: 1px solid rgb(232,228,221);
-	-moz-box-shadow: 0 0 2px rgba(150,150,150,.25);
-	-webkit-box-shadow: 0 0 2px rgba(150,150,150,.25);
-	box-shadow: 0 0 2px rgba(150,150,150,.25);
+	-moz-box-shadow: 0 0 2px rgb(232,228,221);
+	-webkit-box-shadow: 0 0 2px rgb(232,228,221);
+	box-shadow: 0 0 2px rgb(232,228,221);
 	padding: .25em;
 	margin-right: 1em;
 	margin-top: 0px; /* Wide-screen 15px */
 }
 
-/* .blog section[role="note"] article header img {
-	height: 50px;
-	width: 50px;
-	float: left;
-	position: relative;
-	background: rgb(255,255,255);
-	border: 1px solid rgb(227,227,208);
-	-moz-box-shadow: 0 0 2px rgba(150,150,150,.25);
-	-webkit-box-shadow: 0 0 2px rgba(150,150,150,.25);
-	box-shadow: 0 0 2px rgba(150,150,150,.25);
-	padding: 3px;
-	margin-right: 10px;
-	margin-top: 15px;
-} */
 
 /*---- Comment Form ----*/
 

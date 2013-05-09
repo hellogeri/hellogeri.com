@@ -47,12 +47,12 @@
 	<nav role="navigation">
 		<h1><a href="/" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady">Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</a></h1>
 		<ul id="toggle-nav">
-			<li><a class="icon-illustration" href="#">illustration</a></li>
-			<li><a class="icon-design" href="#">design</a></li>
-			<li><a class="icon-photo" href="#">photography</a></li>
-			<li><a class="icon-about" href="#">about me</a></li>
-			<li><a class="icon-blog" href="#">blog</a></li>
-			<li><a class="icon-contact" href="#">get in touch</a></li>
+			<li><a class="icon-illustration" href="illustration.php">illustration</a></li>
+			<li><a class="icon-design" href="design.php">design</a></li>
+			<li><a class="icon-photo" href="photography.php">photography</a></li>
+			<li><a class="icon-about" href="about.php">about me</a></li>
+			<li><a class="icon-blog" href="blog.php">blog</a></li>
+			<li><a class="icon-contact" href="contact.php">get in touch</a></li>
 		</ul>
 	</nav>
 	<div role="banner" class="illustration">
@@ -60,7 +60,6 @@
 </header>
 
 <main role="main" class="clearfix">
-
 	<ul class="thumbs">
 		<li><a href="#"><img src="img/thumbs/puremadlike01_s.jpg" alt="Description"></a></li>
 		<li><a href="#"><img src="img/thumbs/london01_s.jpg" alt="Description"></a></li>

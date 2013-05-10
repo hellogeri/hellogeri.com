@@ -657,13 +657,11 @@ ul.thumbs li a:hover img {
 
 .aboutme {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 0 auto;
 	max-width: 90%;
-	
-	border: 1px red solid;
-	
+	/* border: 1px red solid; */
 	clear: both;
-	margin: 0 auto 3em auto;
+	border-bottom: solid 1px rgb(222,218,201);
 }
 
 .aboutme h1 {
@@ -688,6 +686,13 @@ ul.thumbs li a:hover img {
 	margin-bottom: 2.5em;
 }
 
+.aboutme .availability {
+	margin-bottom: 0;
+}
+.aboutme .availability p {
+	font-size: 1em;
+}
+
 .about article h1 {
 	color: rgb(178,43,20);
 	font-size: 1.8em;
@@ -697,6 +702,7 @@ ul.thumbs li a:hover img {
 .about article h2 {
 	color: rgb(178,43,20);
 	font-size: 1.5em;
+	margin-top: 1.5em;
 	margin-bottom: 0;
 }
 
@@ -704,6 +710,7 @@ ul.thumbs li a:hover img {
 	font-size: 1em;
 	margin: 1em 0 0 0;
 }
+
 
 /*---- Complementary ----*/
 
@@ -850,7 +857,7 @@ section[role="complementary"] h2 {
 }
 
 .featured {
-	margin: 0 auto 2em auto;
+	margin: 3em auto 2em auto;
 	text-align: center;
 	max-width: 26em;
 }
@@ -1125,14 +1132,6 @@ a:active.nav-toggle {
 		padding: 0 1.4% 0.8% 1.4%;
 	}
 	
-	.aboutme img {
-	float: right;
-	max-width: 60%;
-	margin-top: -3em;
-	margin-bottom: 1.5em;
-	margin-left: 1.5em;
-	}
-	
 }
 
 @media screen and (min-width: 35em) {
@@ -1150,6 +1149,7 @@ a:active.nav-toggle {
 		font-size: 1em;
 		margin-top: 1em;
 	}
+	
 	
 }
 
@@ -1176,7 +1176,17 @@ ul.thumbs li {
 	padding: 0 1.2% 0.8% 1.2%;
 }
 
+	.aboutme {
+	margin-bottom: 0;
+	}
 	
+	.aboutme img {
+	float: right;
+	max-width: 50%;
+	margin-top: -2em;
+	margin-bottom: 1em;
+	margin-left: 1.5em;
+	}
 	
 }
 

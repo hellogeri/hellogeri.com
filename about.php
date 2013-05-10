@@ -77,23 +77,18 @@
 	<article class="post">
 		<h2>Q&A</h2>
 		<h3>Tell me more about this website.</h3>
-		<p>This site is built with HTML5 and CSS3, is powered by <a href="http://ellislab.com/expressionengine">ExpressionEngine CMS</a>, and hosted with <a href="http://mediatemple.net/">(mt) Media Temple</a>. It was designed with a responsive, mobile-first approach in mind and makes heavy use of Scott Jehl’s Picturefill.js for responsive image support.</p>
+		<p>This site is built with HTML5 and CSS3, is powered by <a href="http://ellislab.com/expressionengine">ExpressionEngine CMS</a>, and hosted with <a href="http://mediatemple.net/">(mt) Media Temple</a>. It was designed with a responsive, mobile-first approach in mind and makes use of Scott Jehl’s Picturefill.js for responsive image support.</p>
 		<h3>What's your illustration process? Which tools do you use?</h3>
 		<p>I always sketch on paper first before heading to the computer. If you hire me for an illustration job, you’ll always see paper roughs before I proceed with the digital stages. As for tools, I switch between my Wacom Intuos 4 and Cintiq 24HD, depending on the job. I work primarily in Illustrator and Photoshop, but sometimes I dabble in Painter.</p>		
 		<h3>You must have a good camera! What kind do you have?</h3>
 		<p>I'm not partial to any particular camera brand, but I own a Nikon D90. I also love shooting with my various Holga and lo-fi film cameras. I use Nikon Speedlights on location and Alien Bee strobes in the studio.</p>
 		<h3>Will you speak at my conference?</h3>
 		<p>It’s very possible! Drop me a line on my <a href="">contact page</a> and tell me more about your conference.</p>
-</article>
+	</article>
 
 </main>
 
 <section role="complementary">
-	<section class="availability">
-		<a href="#">Available For Hire</a>
-		<p>Accepting work from July 2013</p>
-	</section>
-
 	<section class="featured">
 		<h2>I'm featured in…</h2>
 		<ul>

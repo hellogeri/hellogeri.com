@@ -686,10 +686,10 @@ ul.thumbs li a:hover img {
 	margin-bottom: 2.5em;
 }
 
-.aboutme .availability {
+.about .availability {
 	margin-bottom: 0;
 }
-.aboutme .availability p {
+.about .availability p {
 	font-size: 1em;
 }
 
@@ -710,6 +710,47 @@ ul.thumbs li a:hover img {
 	font-size: 1em;
 	margin: 1em 0 0 0;
 }
+
+.speaking {
+	margin: 0 auto;
+	margin-top: 3em;
+}
+
+.speaking ul {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.speaking ul li {
+	margin: auto 0;
+	background: url(../img/badge-vancouver.png) no-repeat center top;
+	float: left;
+	clear: right;
+	width: 25%;
+	padding-top: 5em;
+	padding-bottom: 1.5em;
+
+}
+
+.speaking p {
+	clear: both; 
+	display: block; 
+	text-align: center;
+	font-size: .85em;
+	margin-top: 1.5em;
+	margin-bottom: 0;
+}
+
+.speaking ul li p {
+	margin: 0;
+	text-align: center;
+}
+
+
+
+/*---- Contact Page -----*/
+
+
 
 
 /*---- Complementary ----*/
@@ -761,7 +802,7 @@ section[role="complementary"] h2 {
 	margin-top: 3em;
 }
 
-.categories ul, .locations ul {
+.categories ul, .locations ul, .speaking ul {
 	list-style: none;
 	margin: 0;
 	padding: 0; 

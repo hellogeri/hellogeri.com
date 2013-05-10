@@ -65,8 +65,8 @@
 		<img src="img/hellogeri-vespa.jpg" alt="Geri riding on a Vespa">
 		<p>I'm Geri Coady — a colour-obsessed freelance designer and illustrator (and occasional photographer) working in <a href="http://en.wikipedia.org/wiki/St._John's,_Newfoundland_and_Labrador">St. John's, Newfoundland</a> — the oldest and most Easterly city in North America.</p>
 		<p>I've been active in the design industry for over a decade, most recently as an art director at a Canadian advertising agency. I've worked with clients of all sizes in the private and public sector and recently illustrated a book for Scholastic UK.</p>
-		<p>I'm the author of Pocket Guide to Colour Accessibility published by Five Simple Steps and I speak about the topic at conferences worldwide.</p>
-		<p>I'm also a long-time supporter of the Skills Canada Newfoundland & Labrador organization, where I volunteer as a Technical Committee member for the Web Design and Development competition.</p>
+		<p>I'm the author of <a ref="http://www.fivesimplesteps.com/products/colour-accessibility">Pocket Guide to Colour Accessibility</a> published by Five Simple Steps and I speak about the topic at conferences worldwide.</p>
+		<p>I'm also a long-time supporter of the <a href="http://www.skillscanada.com">Skills Canada</a> organization, where I volunteer as a provincial technical committee member and coach for the web design and development competition.</p>
 		<section class="availability">
 			<a href="#">Available For Hire</a>
 			<p>Accepting work from July 2013</p>
@@ -85,11 +85,55 @@
 		<p>I'm not partial to any particular camera brand, but I own a Nikon D90. I also love shooting with my various Holga and lo-fi film cameras. I use Nikon Speedlights on location and Alien Bee strobes in the studio.</p>
 		<h3>Will you speak at my conference?</h3>
 		<p>It’s very possible! Drop me a line on my <a href="">contact page</a> and tell me more about your conference.</p>
+		
+		<section class="speaking">
+		<h2>Speaking Appearances</h2>
+		<ul>
+			<li>
+				<p><a href="#">Interlink</a></p>
+				<p>June 5&ndash;6, 2013</p>
+				<p>Vancouver, BC</p>
+			</li>
+			<li>
+				<p><a href="#">Future of Web Design</a></p>
+				<p>Oct. 8&ndash;9, 2013</p>
+				<p>New York, NY</p>
+			</li>
+			<li>
+				<p><a href="#">HPX Digital</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>Halifax, NS</p>
+			</li>
+			<li>
+				<p><a href="#">FITC Toronto</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>Toronto, ON</p>
+			</li>
+			<li>
+				<p><a href="#">beyond tellerrand</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>Düsseldorf, Germany</p>
+			</li>
+			<li>
+				<p><a href="#">Go Beyond Pixels</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>St. John's, NL</p>
+			</li>
+		</ul>
+	</section>
+		
 	</article>
 
 </main>
 
 <section role="complementary">
+
+	<section class="book">
+		<h2>Pocket Guide to Colour Accessibility</h2>
+		<a href="http://www.fivesimplesteps.com/products/colour-accessibility"><img src="img/GeriCoady-ColourAccessibility.png" alt="Pocket Guide to Colour Accessibility by Geri Coady"></a>
+		<p>My new book, <em>Pocket Guide to Colour Accessibility</em>, will help you create beautiful designs that are accessible to people with colour-blindness. Grab a copy over at <a href="http://www.fivesimplesteps.com/products/colour-accessibility">Five Simple Steps!</a></p>
+	</section>
+	
 	<section class="featured">
 		<h2>I'm featured in…</h2>
 		<ul>
@@ -114,34 +158,6 @@
 				<p>Five Simple Questions with Geri Coady</p>
 			</li>
 		</ul>
-	</section>
-	
-	<section class="locations">
-		<h2>I'm speaking at…</h2>
-		<ul>
-			<li>
-				<p><a href="#">Interlink</a></p>
-				<p>June 5&ndash;6, 2013</p>
-				<p>Vancouver, BC</p>
-			</li>
-			<li>
-				<p><a href="#">Future of Web Design</a></p>
-				<p>Oct. 8&ndash;9, 2013</p>
-				<p>New York, NY</p>
-			</li>
-			<li>
-				<p><a href="#">HPX Digital</a></p>
-				<p>Oct. 23&ndash;25, 2013</p>
-				<p>Halifax, NS</p>
-			</li>
-		</ul>
-		<p><a href="/speaking">Past Events</a></p>
-	</section>
-	
-	<section class="book">
-		<h2>Pocket Guide to Colour Accessibility</h2>
-		<a href="http://www.fivesimplesteps.com/products/colour-accessibility"><img src="img/GeriCoady-ColourAccessibility.png" alt="Pocket Guide to Colour Accessibility by Geri Coady"></a>
-		<p>My new book, <em>Pocket Guide to Colour Accessibility</em>, will help you create beautiful designs that are accessible to people with colour-blindness. Grab a copy over at <a href="http://www.fivesimplesteps.com/products/colour-accessibility">Five Simple Steps!</a></p>
 	</section>
 	
 </section>

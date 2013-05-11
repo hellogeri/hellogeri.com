@@ -90,34 +90,40 @@
 		<h2>Speaking Appearances</h2>
 		<ul>
 			<li>
-				<p><a href="#">Interlink</a></p>
+				<p><a href="http://interlinkconference.com/">Interlink</a></p>
 				<p>June 5&ndash;6, 2013</p>
 				<p>Vancouver, BC</p>
+				<p><a href="http://interlinkconference.com/" class="upcoming">Upcoming</a></p>
 			</li>
 			<li>
-				<p><a href="#">Future of Web Design</a></p>
+				<p><a href="http://futureofwebdesign.com/nyc-2013">Future of Web Design</a></p>
 				<p>Oct. 8&ndash;9, 2013</p>
 				<p>New York, NY</p>
+				<p><a href="http://futureofwebdesign.com/nyc-2013" class="upcoming">Upcoming</a></p>
 			</li>
 			<li>
-				<p><a href="#">HPX Digital</a></p>
+				<p><a href="http://halifaxpopexplosion.com/digital">HPX Digital</a></p>
 				<p>Oct. 23&ndash;25, 2013</p>
 				<p>Halifax, NS</p>
+				<p><a href="http://halifaxpopexplosion.com/digital" class="upcoming">Upcoming</a></p>
 			</li>
 			<li>
-				<p><a href="#">FITC Toronto</a></p>
+				<p><a href="http://fitc.ca/event/to13">FITC Toronto</a></p>
 				<p>Oct. 23&ndash;25, 2013</p>
 				<p>Toronto, ON</p>
+				<p><a href="http://fitc.ca/event/to13" class="past">Past Talk</a></p>
 			</li>
 			<li>
-				<p><a href="#">beyond tellerrand</a></p>
+				<p><a href="http://2012.beyondtellerrand.com">beyond tellerrand</a></p>
 				<p>Oct. 23&ndash;25, 2013</p>
 				<p>Düsseldorf, Germany</p>
+				<p><a href="http://2012.beyondtellerrand.com" class="past">Past Talk</a></p>
 			</li>
 			<li>
-				<p><a href="#">Go Beyond Pixels</a></p>
+				<p><a href="http://www.gobeyondpixels.com/2012">Go Beyond Pixels</a></p>
 				<p>Oct. 23&ndash;25, 2013</p>
 				<p>St. John's, NL</p>
+				<p><a href="http://www.gobeyondpixels.com/2012" class="past">Past Talk</a></p>
 			</li>
 		</ul>
 	</section>

@@ -60,17 +60,17 @@
 </header>
 
 <main role="main" class="clearfix">
-
+	<h1>Design</h1>
 	<ul class="thumbs">
-		<li><a href="#"><img src="img/thumbs/puremadlike01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/london01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/becki01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/dave01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/hardboiled01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/hbcartoons01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/spiderman01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/bikerberry01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/arkells01_s.jpg" alt="Description"></a></li>
+		<li><a href="#"><img src="img/thumbs/puremadlike01_s.jpg" alt="Description"></a><a href="#">Pure Mad Like</a></li>
+		<li><a href="#"><img src="img/thumbs/london01_s.jpg" alt="Description"></a><a href="#">London</a></li>
+		<li><a href="#"><img src="img/thumbs/becki01_s.jpg" alt="Description"></a><a href="#">Uncommon Commonlaw</a></li>
+		<li><a href="#"><img src="img/thumbs/dave01_s.jpg" alt="Description"></a><a href="#">Dave</a></li>
+		<li><a href="#"><img src="img/thumbs/hardboiled01_s.jpg" alt="Description"></a><a href="#">Hardboiled Web Design</a></li>
+		<li><a href="#"><img src="img/thumbs/hbcartoons01_s.jpg" alt="Description"></a><a href="#">Retro Cartoons</a></li>
+		<li><a href="#"><img src="img/thumbs/spiderman01_s.jpg" alt="Description"></a><a href="#">Spiderman</a></li>
+		<li><a href="#"><img src="img/thumbs/bikerberry01_s.jpg" alt="Description"></a><a href="#">takeCharge! Energy Savers</a></li>
+		<li><a href="#"><img src="img/thumbs/arkells01_s.jpg" alt="Description"></a><a href="#">Arkells</a></li>
 	</ul>
 
 </main>
@@ -80,7 +80,7 @@
 	
 	<section class="skills">
 		<h2>What I Can Do</h2>
-		<p>I've been drawing and painting since I was old enough to hold a crayon. Fortunately, I like to think I've improved <a href="#">since then</a>. I love experimenting with all styles of illustration — from cartoons to realistic paintings, I can bring any idea to life.</p>
+		<p>FINISH THIS</p>
 	</section>
 	
 	<section class="availability">

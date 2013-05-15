@@ -41,7 +41,7 @@
 
 </head>
 
-<body>
+<body class="contact">
 
 <header class="doc-head">
 	<nav role="navigation">
@@ -60,34 +60,61 @@
 </header>
 
 <main role="main" class="clearfix">
-	<h1>Illustration</h1>
-	<ul class="thumbs">
-		<li><a href="#"><img src="img/thumbs/puremadlike01_s.jpg" alt="Description"></a><a href="#">Pure Mad Like</a></li>
-		<li><a href="#"><img src="img/thumbs/london01_s.jpg" alt="Description"></a><a href="#">London</a></li>
-		<li><a href="#"><img src="img/thumbs/becki01_s.jpg" alt="Description"></a><a href="#">Uncommon Commonlaw</a></li>
-		<li><a href="#"><img src="img/thumbs/dave01_s.jpg" alt="Description"></a><a href="#">Dave</a></li>
-		<li><a href="#"><img src="img/thumbs/hardboiled01_s.jpg" alt="Description"></a><a href="#">Hardboiled Web Design</a></li>
-		<li><a href="#"><img src="img/thumbs/hbcartoons01_s.jpg" alt="Description"></a><a href="#">Retro Cartoons</a></li>
-		<li><a href="#"><img src="img/thumbs/spiderman01_s.jpg" alt="Description"></a><a href="#">Spiderman</a></li>
-		<li><a href="#"><img src="img/thumbs/bikerberry01_s.jpg" alt="Description"></a><a href="#">takeCharge! Energy Savers</a></li>
-		<li><a href="#"><img src="img/thumbs/arkells01_s.jpg" alt="Description"></a><a href="#">Arkells</a></li>
-	</ul>
+	<h1>Get in Touch</h1>
+	<p>Whether it's illustration, design, or photography — I'd love to work with you. Please use the form below to get in touch. Don't forget to include as many details as you can about your project — it will help me get back to you sooner.</p>
+
+	<section class="contact_box">
+	<form id="contact_form" method="post" action="http://hellogeri.com/">
+	<fieldset>
+		<ul>
+			<li>
+				<label for="contact_name">Your Name:</label>
+				<input id="contact_name" name="name" type="text" placeholder="Enter your first name and last name here" required>
+			</li>
+			<li>
+				<label for="contact_company">Your Company:</label>
+				<input id="contact_company" name="company" type="text" placeholder="Enter your company name here" required>
+			</li>
+			<li>
+				<label for="contact_email">Your E-mail:</label>
+				<input id="contact_email" name="from" type="email" placeholder="name@domain.com" required>
+			</li>
+		</ul>
+	</fieldset>
+
+	<fieldset>
+		<ul>
+			<li>
+				<label for="contact_subject">Subject:</label>
+				<input id="contact_subject" name="subject" type="text" placeholder="Subject of message" required>
+			</li>
+		</ul>
+	</fieldset>
+
+	<fieldset>
+			<label for="contact_comment" class="textarea">How can I help you?</label>
+			<textarea id="contact_comment" name="message" rows="5" required></textarea>
+	</fieldset>
+
+	<fieldset>
+		<button type="submit" name="submit" value="Submit Form">Send</button>
+	</fieldset>
+
+	</form>
+	</section>
+
 
 </main>
 
 
 <section role="complementary">
 	
-	<section class="skills">
-		<h2>What I Can Do</h2>
-		<p>I've been drawing and painting since I was old enough to hold a crayon. Fortunately, I like to think I've improved <a href="#">since then</a>. I love experimenting with all styles of illustration — from cartoons to realistic paintings, I can bring any idea to life.</p>
+	<section class="newfoundland">
+		<h2>Location</h2>
+		<img src="img/nl_map.png" alt="Map of Newfoundland, Canada">
+		<p>I'm located in St. John's, Newfoundland, Canada — the most easterly (and oldest!) city in North America. It doesn't matter where you're located — I'd love to work with you.</p>
 	</section>
 	
-	<section class="availability">
-		<a href="#">Available For Hire</a>
-		<p>Accepting work from July 2013</p>
-	</section>
-
 </section>
 
 <footer role="contentinfo">

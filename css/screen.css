@@ -28,6 +28,10 @@ h1,h2,h3,h4,h5,h6  {
 	margin: 0;
 }
 
+h1 {
+	color: rgb(178,43,20);
+}
+
 img {
 	max-width: 100%;
 	border: 0;
@@ -425,10 +429,13 @@ article footer ul li:last-of-type a {
 
 /*---- Blog Page -----*/
 
-.blog main[role="main"] h1 {
-	color: rgb(178,43,20);
+.blog h1 {
 	font-size: 1.8em;
 	margin-bottom: 0;
+}
+
+.comment_box h1 {
+	font-size: 1.25em;
 }
 
 .author {
@@ -478,6 +485,12 @@ article footer ul li:last-of-type a {
 	clear: both;
 }
 
+.comment_box h1 {
+	font-size: 1.25em;
+	border-bottom: 1px solid rgb(227,227,208);
+	margin-bottom: 1em;
+}
+
 .blog section[role="note"] article header {
 	width: 100%;
 	margin-top: 1.5em;
@@ -486,13 +499,6 @@ article footer ul li:last-of-type a {
 .blog section[role="note"] article p:last-of-type {
 	margin-bottom: 2em;
 }
-
-/* .blog section[role="note"] article header {
-	width: 30%;
-	float: left;
-	position: relative;
-	margin-top: 0;
-} */
 
 .blog section[role="note"] article header ul {
 	list-style-type: none;
@@ -510,12 +516,6 @@ article footer ul li:last-of-type a {
 	float: left; 
 }
 
-/* .blog section[role="note"] .comment-body {
-	width: 65%;
-	float: right;
-	position: relative;
-} */
-
 .blog section[role="note"] article header img {
 	height: 32px;
 	width: 32px;
@@ -532,50 +532,43 @@ article footer ul li:last-of-type a {
 }
 
 
-/*---- Comment Form ----*/
+/*---- Forms ----*/
 
 
-.comment_box {
+.comment_box, .contact_box {
 	width: 100%;
 	float: left;
 	position: relative;
 	padding: 1em 0;
 }
 
-.comment_box h1 {
-	font-size: 1.25em;
-	border-bottom: 1px solid rgb(227,227,208);
-	margin-bottom: 1em;
-}
-
-form#comment_form fieldset {
+form fieldset {
 	padding-bottom: 20px;
 	padding-left: 0;
-
 }
 
-form#comment_form fieldset:first-of-type {
+form fieldset:first-of-type {
 	border-bottom: 1px solid rgb(227,227,208);
 	margin-bottom: 15px;
 }
 
-form#comment_form fieldset ul {
+form fieldset ul {
 	list-style: none;
 	padding-left: 0;
 	margin-top: 0;
 }
 
-form#comment_form fieldset ul li {
+form fieldset ul li {
 	margin-bottom: .85em;
 	margin-top: 0;
 }
 
-form#comment_form fieldset label {
+form fieldset label {
 	line-height: 3;
 	float: left;
 }
 
-form#comment_form input, form#comment_form #captcha {
+form input, form #captcha {
 	outline: none;
 	font-size: .85em;
 	width: 100%;
@@ -588,7 +581,7 @@ form#comment_form input, form#comment_form #captcha {
 	transition: all .25s ease-in-out;
 }
 
-form#comment_form textarea {
+form textarea {
 	outline: none;
 	font-size: .85em;
 	padding: 5px;
@@ -602,14 +595,14 @@ form#comment_form textarea {
 	transition: all .25s ease-in-out;
 }
 
-form#comment_form input:focus, form#comment_form textarea:focus {
+form input:focus, form textarea:focus {
 	outline: none;
 	-webkit-box-shadow: 0px 0px 5px rgb(178,43,20);
 	-moz-box-shadow: 0px 0px 5px rgb(178,43,20);
 	box-shadow: 0px 0px 5px rgb(178,43,20);
 }
 
-form#comment_form fieldset:last-of-type {
+form fieldset:last-of-type {
 	padding-bottom: 3em;
 }
 
@@ -630,6 +623,9 @@ ul.thumbs li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	margin-bottom: 1em;
+	vertical-align: top;
+	font-size: .85em;
 }
 
 ul.thumbs li img { 
@@ -641,6 +637,7 @@ ul.thumbs li img {
 	-webkit-box-shadow: 0 0 2px rgb(232,228,221);
 	box-shadow: 0 0 2px rgb(232,228,221);
 	padding: 3%;
+	margin-bottom: .5em;
 }
 
 ul.thumbs li a:hover img { 
@@ -662,10 +659,6 @@ ul.thumbs li a:hover img {
 	/* border: 1px red solid; */
 	clear: both;
 	border-bottom: solid 1px rgb(222,218,201);
-}
-
-.aboutme h1 {
-	color: rgb(178,43,20);
 }
 
 .aboutme img {
@@ -694,7 +687,6 @@ ul.thumbs li a:hover img {
 }
 
 .about article h1 {
-	color: rgb(178,43,20);
 	font-size: 1.8em;
 	margin-bottom: 0;
 }
@@ -718,7 +710,7 @@ ul.thumbs li a:hover img {
 
 .speaking ul {
 	max-width: 100%;
-	margin: 0 auto;
+	margin: 5em auto 0 auto;
 }
 
 .speaking ul li {
@@ -783,11 +775,6 @@ ul.thumbs li a:hover img {
 	color: rgb(255,255,255);
 	text-decoration: none;
 }
-
-
-/*---- Contact Page -----*/
-
-
 
 
 /*---- Complementary ----*/
@@ -955,6 +942,12 @@ section[role="complementary"] h2 {
 	font-size: .95em;
 	margin-top: 0;
 }
+
+.newfoundland {
+	text-align: center;
+}
+
+
 
 /*---- Footer -----*/
 
@@ -1249,10 +1242,10 @@ a:active.nav-toggle {
 	
 		/*---- Work -----*/
 
-ul.thumbs li { 
-	width: 24%;
-	padding: 0 1.2% 0.8% 1.2%;
-}
+	ul.thumbs li { 
+		width: 24%;
+		padding: 0 1.2% 0.8% 1.2%;
+	}
 
 	.aboutme {
 	margin-bottom: 0;
@@ -1574,6 +1567,10 @@ section[role="complementary"] {
 }
 
 .featured {
+	text-align: left;
+}
+
+.newfoundland {
 	text-align: left;
 }
 

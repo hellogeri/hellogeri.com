@@ -74,8 +74,50 @@
 </div>	
 
 <main role="main" class="clearfix">
-
-	<article class="post">
+	
+		<section class="speaking">
+		<h2>Speaking Appearances</h2>
+		<ul>
+			<li class="vancouver">
+				<p><a href="http://interlinkconference.com/">Interlink</a></p>
+				<p>June 5&ndash;6, 2013</p>
+				<p>Vancouver, BC</p>
+				<p><a href="http://interlinkconference.com/" class="upcoming">Upcoming</a></p>
+			</li>
+			<li class="newyork">
+				<p><a href="http://futureofwebdesign.com/nyc-2013">Future of Web Design</a></p>
+				<p>Oct. 8&ndash;9, 2013</p>
+				<p>New York, NY</p>
+				<p><a href="http://futureofwebdesign.com/nyc-2013" class="upcoming">Upcoming</a></p>
+			</li>
+			<li class="halifax">
+				<p><a href="http://halifaxpopexplosion.com/digital">HPX Digital</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>Halifax, NS</p>
+				<p><a href="http://halifaxpopexplosion.com/digital" class="upcoming">Upcoming</a></p>
+			</li>
+			<li class="toronto">
+				<p><a href="http://fitc.ca/event/to13">FITC Toronto</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>Toronto, ON</p>
+				<p><a href="http://fitc.ca/event/to13" class="past">Past Talk</a></p>
+			</li>
+			<li class="dusseldorf">
+				<p><a href="http://2012.beyondtellerrand.com">beyond tellerrand</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>Düsseldorf, Germany</p>
+				<p><a href="http://2012.beyondtellerrand.com" class="past">Past Talk</a></p>
+			</li>
+			<li class="stjohns">
+				<p><a href="http://www.gobeyondpixels.com/2012">Go Beyond Pixels</a></p>
+				<p>Oct. 23&ndash;25, 2013</p>
+				<p>St. John's, NL</p>
+				<p><a href="http://www.gobeyondpixels.com/2012" class="past">Past Talk</a></p>
+			</li>
+		</ul>
+	</section>
+	
+	<article>
 		<h2>Q&A</h2>
 		<h3>Tell me more about this website.</h3>
 		<p>This site is built with HTML5 and CSS3, is powered by <a href="http://ellislab.com/expressionengine">ExpressionEngine CMS</a>, and hosted with <a href="http://mediatemple.net/">(mt) Media Temple</a>. It was designed with a responsive, mobile-first approach in mind and makes use of Scott Jehl’s Picturefill.js for responsive image support.</p>
@@ -85,49 +127,6 @@
 		<p>I'm not partial to any particular camera brand, but I own a Nikon D90. I also love shooting with my various Holga and lo-fi film cameras. I use Nikon Speedlights on location and Alien Bee strobes in the studio.</p>
 		<h3>Will you speak at my conference?</h3>
 		<p>It’s very possible! Drop me a line on my <a href="">contact page</a> and tell me more about your conference.</p>
-		
-		<section class="speaking">
-		<h2>Speaking Appearances</h2>
-		<ul>
-			<li>
-				<p><a href="http://interlinkconference.com/">Interlink</a></p>
-				<p>June 5&ndash;6, 2013</p>
-				<p>Vancouver, BC</p>
-				<p><a href="http://interlinkconference.com/" class="upcoming">Upcoming</a></p>
-			</li>
-			<li>
-				<p><a href="http://futureofwebdesign.com/nyc-2013">Future of Web Design</a></p>
-				<p>Oct. 8&ndash;9, 2013</p>
-				<p>New York, NY</p>
-				<p><a href="http://futureofwebdesign.com/nyc-2013" class="upcoming">Upcoming</a></p>
-			</li>
-			<li>
-				<p><a href="http://halifaxpopexplosion.com/digital">HPX Digital</a></p>
-				<p>Oct. 23&ndash;25, 2013</p>
-				<p>Halifax, NS</p>
-				<p><a href="http://halifaxpopexplosion.com/digital" class="upcoming">Upcoming</a></p>
-			</li>
-			<li>
-				<p><a href="http://fitc.ca/event/to13">FITC Toronto</a></p>
-				<p>Oct. 23&ndash;25, 2013</p>
-				<p>Toronto, ON</p>
-				<p><a href="http://fitc.ca/event/to13" class="past">Past Talk</a></p>
-			</li>
-			<li>
-				<p><a href="http://2012.beyondtellerrand.com">beyond tellerrand</a></p>
-				<p>Oct. 23&ndash;25, 2013</p>
-				<p>Düsseldorf, Germany</p>
-				<p><a href="http://2012.beyondtellerrand.com" class="past">Past Talk</a></p>
-			</li>
-			<li>
-				<p><a href="http://www.gobeyondpixels.com/2012">Go Beyond Pixels</a></p>
-				<p>Oct. 23&ndash;25, 2013</p>
-				<p>St. John's, NL</p>
-				<p><a href="http://www.gobeyondpixels.com/2012" class="past">Past Talk</a></p>
-			</li>
-		</ul>
-	</section>
-		
 	</article>
 
 </main>

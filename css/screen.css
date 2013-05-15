@@ -686,6 +686,11 @@ ul.thumbs li a:hover img {
 	font-size: 1em;
 }
 
+.about article {
+	clear: both;
+	margin-bottom: 3.5em;
+}
+
 .about article h1 {
 	font-size: 1.8em;
 	margin-bottom: 0;
@@ -708,6 +713,11 @@ ul.thumbs li a:hover img {
 	margin-top: 3em;
 }
 
+.speaking h2 {
+	color: rgb(178,43,20);
+	margin-bottom: .75em;
+}
+
 .speaking ul {
 	max-width: 100%;
 	margin: 5em auto 0 auto;
@@ -715,14 +725,37 @@ ul.thumbs li a:hover img {
 
 .speaking ul li {
 	margin: auto 0;
-	background: url(../img/badge-vancouver.png) no-repeat center top;
+	/* background: url(../img/badge-vancouver.png) no-repeat center top; */
 	float: left;
-	clear: right;
-	width: 25%;
-	padding-top: 5em;
-	padding-bottom: 1.5em;
-
+	width: 50%;
+	padding-top: 7em;
+	padding-bottom: 2em;
 }
+
+.newyork {
+	background: url(../img/badge-toronto-med.jpg) no-repeat center top;
+}
+	
+.toronto {
+	background: url(../img/badge-toronto-med.jpg) no-repeat center top;
+}
+	
+.vancouver {
+	background: url(../img/badge-vancouver-med.jpg) no-repeat center top;
+}
+	
+.halifax {
+	background: url(../img/badge-halifax-med.jpg) no-repeat center top;
+}
+	
+.stjohns {
+	background: url(../img/badge-stjohns-med.jpg) no-repeat center top;
+}
+	
+.dusseldorf {
+	background: url(../img/badge-dusseldorf-med.jpg) no-repeat center top;
+}
+	
 
 .speaking p {
 	clear: both; 
@@ -814,6 +847,10 @@ section[role="complementary"] h2 {
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
 	border-radius: .5em;
+	-webkit-transition: background-color .1s linear;
+	-moz-transition: background-color .1s linear;
+	-o-transition: background-color .1s linear;
+	transition: background-color .1s linear;
 }
 
 .availability a:hover {
@@ -880,12 +917,23 @@ section[role="complementary"] h2 {
 
 .locations ul li {
 	margin: auto 0;
-	background: url(../img/badge-vancouver.png) no-repeat center top;
 	float: left;
 	clear: right;
 	width: 32%;
 	padding-top: 5em;
 	padding-bottom: 1.5em;
+}
+
+.locations .vancouver {
+	background: url(../img/badge-vancouver-sm.png) no-repeat center top;
+}
+
+.locations .toronto {
+	background: url(../img/badge-toronto-sm.png) no-repeat center top;
+}
+
+.locations .halifax {
+	background: url(../img/badge-halifax-sm.png) no-repeat center top;
 }
 
 .locations ul li:nth-child(1) {
@@ -907,7 +955,7 @@ section[role="complementary"] h2 {
 }
 
 .book {
-	margin: 3em auto 0 auto;
+	margin: 1em auto 0 auto;
 	overflow: auto;
 	text-align: center;
 	max-width: 26em;
@@ -1203,6 +1251,10 @@ a:active.nav-toggle {
 		padding: 0 1.4% 0.8% 1.4%;
 	}
 	
+	.speaking ul li {
+		width: 33%;
+	}
+	
 }
 
 @media screen and (min-width: 35em) {
@@ -1248,15 +1300,15 @@ a:active.nav-toggle {
 	}
 
 	.aboutme {
-	margin-bottom: 0;
+		margin-bottom: 0;
 	}
 	
 	.aboutme img {
-	float: right;
-	max-width: 50%;
-	margin-top: -2em;
-	margin-bottom: 1em;
-	margin-left: 1.5em;
+		float: right;
+		max-width: 50%;
+		margin-top: -2em;
+		margin-bottom: 1em;
+		margin-left: 1.5em;
 	}
 	
 }
@@ -1277,6 +1329,38 @@ a:active.nav-toggle {
 		margin-top: 1em;
 	}
 	
+	.speaking ul li {
+		margin: auto 0;
+		float: left;
+		width: 25%;
+		padding-top: 9.5em;
+		padding-bottom: 2em;
+		font-size: 1.2em;
+	}
+	
+	.newyork {
+		background: url(../img/badge-toronto-lrg.jpg) no-repeat center top;
+	}
+	
+	.toronto {
+		background: url(../img/badge-toronto-lrg.jpg) no-repeat center top;
+	}
+	
+	.vancouver {
+		background: url(../img/badge-vancouver-lrg.jpg) no-repeat center top;
+	}
+	
+	.halifax {
+		background: url(../img/badge-halifax-lrg.jpg) no-repeat center top;
+	}
+	
+	.stjohns {
+		background: url(../img/badge-stjohns-lrg.jpg) no-repeat center top;
+	}
+	
+	.dusseldorf {
+		background: url(../img/badge-dusseldorf-lrg.jpg) no-repeat center top;
+	}
 	
 }
 
@@ -1483,7 +1567,7 @@ section[role="complementary"] {
 	padding-top: 0;
 }
 
-.availability {
+.availability, .categories p, .book, .skills, .featured, .newfoundland {
 	text-align: left;
 }
 
@@ -1491,12 +1575,12 @@ section[role="complementary"] {
 	font-size: 1em;
 }
 
-.categories {
-	margin-top: 2.5em;
+.book {
+	margin: 3em auto 0 auto;
 }
 
-.categories p {
-	text-align: left;
+.categories {
+	margin-top: 2.5em;
 }
 
 .categories ul {
@@ -1527,7 +1611,6 @@ section[role="complementary"] {
 	background: rgb(235,230,220);
 }
 
-
 .locations {
 	padding: 1em 0 0 0;
 	width: auto;
@@ -1546,31 +1629,26 @@ section[role="complementary"] {
 
 .locations ul li {
 	margin: 0 0 1em 0;
-	background: url(../img/badge-vancouver.png) no-repeat 0;
 	padding-left: 80px;
 	width: auto;
 	padding-top: 0;
-	padding-bottom: 0;
+	padding-bottom: .25em;
+}
+
+.locations .vancouver {
+	background: url(../img/badge-vancouver-sm.png) no-repeat 0 -3px;
+}
+
+.locations .toronto {
+	background: url(../img/badge-toronto-sm.png) no-repeat 0 -3px;
+}
+
+.locations .halifax {
+	background: url(../img/badge-halifax-sm.png) no-repeat 0 -3px;
 }
 
 .locations ul li p {
 	margin: 0;
-	text-align: left;
-}
-
-.book {
-	text-align: left;
-}
-
-.skills {
-	text-align: left;
-}
-
-.featured {
-	text-align: left;
-}
-
-.newfoundland {
 	text-align: left;
 }
 

@@ -197,17 +197,17 @@
 	<section class="locations">
 		<h2>I'm speaking at…</h2>
 		<ul>
-			<li>
+			<li class="vancouver">
 				<p><a href="#">Interlink</a></p>
 				<p>June 5&ndash;6, 2013</p>
 				<p>Vancouver, BC</p>
 			</li>
-			<li>
+			<li class="toronto">
 				<p><a href="#">Future of Web Design</a></p>
 				<p>Oct. 8&ndash;9, 2013</p>
 				<p>New York, NY</p>
 			</li>
-			<li>
+			<li class="halifax">
 				<p><a href="#">HPX Digital</a></p>
 				<p>Oct. 23&ndash;25, 2013</p>
 				<p>Halifax, NS</p>

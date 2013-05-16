@@ -41,18 +41,18 @@
 
 </head>
 
-<body>
+<body class="work">
 
 <header class="doc-head">
 	<nav role="navigation">
 		<h1><a href="/" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady">Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</a></h1>
 		<ul id="toggle-nav">
-			<li><a class="icon-illustration" href="#">illustration</a></li>
-			<li><a class="icon-design" href="#">design</a></li>
-			<li><a class="icon-photo" href="#">photography</a></li>
-			<li><a class="icon-about" href="#">about me</a></li>
-			<li><a class="icon-blog" href="#">blog</a></li>
-			<li><a class="icon-contact" href="#">get in touch</a></li>
+			<li><a class="icon-illustration" href="illustration.php">illustration</a></li>
+			<li><a class="icon-design" href="design.php">design</a></li>
+			<li><a class="icon-photo" href="photography.php">photography</a></li>
+			<li><a class="icon-about" href="about.php">about me</a></li>
+			<li><a class="icon-blog" href="blog.php">blog</a></li>
+			<li><a class="icon-contact" href="contact.php">get in touch</a></li>
 		</ul>
 	</nav>
 	<div role="banner" class="illustration">
@@ -61,33 +61,45 @@
 
 <main role="main" class="clearfix">
 
-	<ul class="thumbs">
-		<li><a href="#"><img src="img/thumbs/puremadlike01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/london01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/becki01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/dave01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/hardboiled01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/hbcartoons01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/spiderman01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/bikerberry01_s.jpg" alt="Description"></a></li>
-		<li><a href="#"><img src="img/thumbs/arkells01_s.jpg" alt="Description"></a></li>
-	</ul>
+	<div data-picture data-alt="#">
+        <div data-src="work/illustration/brokersdirect01_sm.jpg"></div>
+        <div data-src="work/illustration/brokersdirect01_lg.jpg"     data-media="(min-width: 57em)"></div>
+        <noscript>
+            <img src="work/illustration/brokersdirect01_lg.jpg" alt="#">
+        </noscript>
+    </div>
 
+	<div data-picture data-alt="#">
+        <div data-src="work/illustration/brokersdirect02_sm.jpg"></div>
+        <div data-src="work/illustration/brokersdirect02_lg.jpg"     data-media="(min-width: 57em)"></div>
+        <noscript>
+            <img src="work/illustration/brokersdirect02_lg.jpg" alt="#">
+        </noscript>
+    </div>
+    
 </main>
 
 
 <section role="complementary">
-	
-	<section class="skills">
-		<h2>What I Can Do</h2>
-		<p>I've been drawing and painting since I was old enough to hold a crayon. Fortunately, I like to think I've improved <a href="#">since then</a>. I love experimenting with all styles of illustration — from cartoons to realistic paintings, I can bring any idea to life.</p>
-	</section>
-	
-	<section class="availability">
-		<a href="#">Available For Hire</a>
-		<p>Accepting work from July 2013</p>
-	</section>
+	<header>
+		<h1>Brokers Direct</h1>
+		<ul>
+			<li>Client: Brokers Direct</li>
+			<li>Project: Website Illustration</li>
+		</ul>
+	</header>
 
+	<p>Cartoon illustration of <a href="http://www.arkells.ca">Arkells</a>, a band from Hamilton, Ontario. Medium: Illustrator, Photoshop.</p>
+	<q>I'd like to thank you for the amazing portrait you created of us… it's spot on and so cool!</q>
+	<cite>&mdash; Max Kerman, Arkells</cite>
+
+	<footer>
+		<ul>
+			<li class="navnewer"><a href="/illustration/view/malarkey">Newer</a></li>
+			<li class="navolder"><a href="/illustration/view/biker_berry">Older</a></li>
+			<li class="navback"><a href="http://hellogeri.com/illustration">Back</a></li>
+		</ul>
+	</footer>
 </section>
 
 <footer role="contentinfo">

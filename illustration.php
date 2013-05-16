@@ -72,7 +72,6 @@
 		<li><a href="#"><img src="img/thumbs/bikerberry01_s.jpg" alt="Description"></a><a href="#">takeCharge! Energy Savers</a></li>
 		<li><a href="#"><img src="img/thumbs/arkells01_s.jpg" alt="Description"></a><a href="#">Arkells</a></li>
 	</ul>
-
 </main>
 
 

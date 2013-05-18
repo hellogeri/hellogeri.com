@@ -62,7 +62,13 @@
 <div class="aboutme">
 		<h1>Hello… Geri?</h1>
 		</header>
-		<img src="img/hellogeri-vespa.jpg" alt="Geri riding on a Vespa">
+		<div data-picture data-alt="Geri riding on a Vespa">
+        <div data-src="img/hellogeri-vespa-sm.jpg"></div>
+        <div data-src="img/hellogeri-vespa.jpg"     data-media="(min-width: 57em)"></div>
+        <noscript>
+            <img src="img/hellogeri-vespa.jpg" alt="Geri riding on a Vespa">
+        </noscript>
+    	</div>
 		<p>I'm Geri Coady — a colour-obsessed freelance designer and illustrator (and occasional photographer) working in <a href="http://en.wikipedia.org/wiki/St._John's,_Newfoundland_and_Labrador">St. John's, Newfoundland</a> — the oldest and most Easterly city in North America.</p>
 		<p>I've been active in the design industry for over a decade, most recently as an art director at a Canadian advertising agency. I've worked with clients of all sizes in the private and public sector and recently illustrated a book for Scholastic UK.</p>
 		<p>I'm the author of <a href="http://www.fivesimplesteps.com/products/colour-accessibility">Pocket Guide to Colour Accessibility</a> published by Five Simple Steps and I speak about the topic at conferences worldwide.</p>

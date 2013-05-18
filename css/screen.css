@@ -675,6 +675,14 @@ ul.thumbs li a:hover img {
 	margin: 0 0 3em 0;
 }
 
+.work section[role="complementary"] footer ul {
+	list-style-type: none;
+}
+
+.work section[role="complementary"] footer ul li {
+	display: inline;
+}
+
 
 /*---- About Page -----*/
 

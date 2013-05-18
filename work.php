@@ -35,6 +35,13 @@
         <?php print $large; ?>
     }
 }
+
+@media all and (min-width: 57em) {
+    body:after {
+        content: 'widescreen';
+        display: none;
+    }
+}
 </style>
 
 <link rel="alternate" type="application/rss+xml" title="hellogeri.com RSS" href="http://hellogeri.com/rss">
@@ -65,15 +72,15 @@
         <div data-src="work/illustration/brokersdirect01_sm.jpg"></div>
         <div data-src="work/illustration/brokersdirect01_lg.jpg"     data-media="(min-width: 57em)"></div>
         <noscript>
-            <img src="work/illustration/brokersdirect01_lg.jpg" alt="#">
+            <img src="work/illustration/brokersdirect01_sm.jpg" alt="#">
         </noscript>
     </div>
-
-	<div data-picture data-alt="#">
+    
+    <div data-picture data-alt="#">
         <div data-src="work/illustration/brokersdirect02_sm.jpg"></div>
         <div data-src="work/illustration/brokersdirect02_lg.jpg"     data-media="(min-width: 57em)"></div>
         <noscript>
-            <img src="work/illustration/brokersdirect02_lg.jpg" alt="#">
+            <img src="work/illustration/brokersdirect02_sm.jpg" alt="#">
         </noscript>
     </div>
     
@@ -81,6 +88,7 @@
 
 
 <section role="complementary">
+	<div class="sticky">
 	<header>
 		<h1>Brokers Direct</h1>
 		<ul>
@@ -100,6 +108,8 @@
 			<li class="navback"><a href="http://hellogeri.com/illustration">Back</a></li>
 		</ul>
 	</footer>
+	</div>
+	
 </section>
 
 <footer role="contentinfo">
@@ -127,6 +137,39 @@
 
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>
+<script src="scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+		
+		var size = window.getComputedStyle(document.body,':after').getPropertyValue('content');
+		
+		if (size == 'widescreen') {
+		
+		$(function(){ // document ready
+
+		  if (!!$('.sticky').offset()) { // make sure ".sticky" element exists
+
+		    var stickyTop = $('.sticky').offset().top; // returns number 
+
+		    $(window).scroll(function(){ // scroll event
+
+		      var windowTop = $(window).scrollTop(); // returns number 
+
+		      if (stickyTop < windowTop){
+		        $('.sticky').css({ position: 'fixed', top: 30 });
+		      }
+		      else {
+		        $('.sticky').css('position','static');
+		      }
+
+		    });
+
+		  }
+		
+		});
+		
+		}
+		
+	</script>
 
 </body>
 </html>

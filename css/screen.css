@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-	background: rgb(0,0,0);
+	background: rgb(0,0,0) url(../img/page_bg.jpg) repeat;
 	/* background: rgb(242,238,231); */
 	color: rgb(25,25,25);
 	font: 100%/1.5 "Proxima-Nova-Light", sans-serif;
@@ -58,7 +58,7 @@ a:active {
 }
 
 textarea, input[type="text"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="search"] {
-	background-color: #fff;
+	background-color: rgb(255,255,255);
 	border: 2px solid rgb(232,228,221);
 	border-radius: 5px;
 	padding: .5em;

@@ -43,6 +43,8 @@
 
 <body>
 
+<div id="page">
+
 <header class="doc-head">
 	<nav role="navigation">
 		<h1><a href="/" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady">Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</a></h1>
@@ -112,6 +114,8 @@
 		</ul>
 	</nav>
 </footer>
+
+</div>
 
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>

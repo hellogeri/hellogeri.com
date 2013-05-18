@@ -3,7 +3,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <?php include( "scripts/time.php" ); ?>
-<title>Geri Coady &#124; Designer &amp; Illustrator in St. John's, Newfoundland, Canada</title>
+<title>Geri Coady &#124; Designer &amp; Illustrator in St. John's, Newfoundland, Canada &#124; About</title>
 <meta charset="utf-8">
 <meta name="description" content="Geri Coady is a colour-obsessed freelance designer and illustrator living and working in St. John's, Newfoundland, Canada.">
 <meta name="keywords" content="illustration, web design, graphic design, branding, logo design, speaking, speaker, front end design, photography, photographer, colour, color, accessibility, st. john's, newfoundland, atlantic, canada">
@@ -42,6 +42,8 @@
 </head>
 
 <body class="about">
+
+<div id="page">
 
 <header class="doc-head">
 	<nav role="navigation">
@@ -197,6 +199,8 @@
 		</ul>
 	</nav>
 </footer>
+
+</div>
 
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>

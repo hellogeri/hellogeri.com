@@ -17,7 +17,8 @@ html, body {
 }
 
 body {
-	background: rgb(242,238,231);
+	background: rgb(0,0,0);
+	/* background: rgb(242,238,231); */
 	color: rgb(25,25,25);
 	font: 100%/1.5 "Proxima-Nova-Light", sans-serif;
 }
@@ -94,6 +95,13 @@ button[type="submit"]:hover {
 
 /*---- Containers -----*/
 
+div#page {
+	max-width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(242,238,231);
+}
+
 main[role="main"] {
 	display: block;
 	margin: 0 auto;
@@ -111,8 +119,8 @@ section[role="complementary"] {
 /*---- Header -----*/
 
 .doc-head {
-	color: #fff;
-	background: #000;
+	color: rgb(255,255,255);
+	background: rgb(0,0,0);
 	margin-bottom: 3em;
 }
 
@@ -133,10 +141,17 @@ nav[role="navigation"] h1 {
 	position: absolute; 
 	z-index: 1;
 	bottom: -3em;
-	width: 100px;
-	height: 100px;
+	width: 112px;
+	height: 96px;
 	text-indent: -9999px;
-	background: transparent url(../img/logo-small.png) no-repeat 50% 0;
+}
+
+nav[role="navigation"] h1 {
+	background: transparent url(../img/hellogeri_logo_small.png) no-repeat 50% 0;
+}
+
+.svg nav[role="navigation"] h1 {
+	background: transparent url(../img/hellogeri_logo_small.svg) no-repeat 50% 0;
 }
 
 nav[role="navigation"] ul {
@@ -350,12 +365,6 @@ article header h1 a, article header h1 a:hover, article header h1 a:active {
 article header p {
 	font-size: .9em;
 	margin: .5em 0 0 0;
-}
-
-.blogthumb {
-	margin: auto 0;
-	float: right;
-	display: none;
 }
 
 article .excerpt-lg {
@@ -944,8 +953,7 @@ section[role="complementary"] h2 {
 }
 
 .locations {
-	margin: 0 auto;
-	margin-top: 3em;
+	margin: 3em auto 3em auto;
 }
 
 .locations ul {
@@ -1438,14 +1446,21 @@ nav[role="navigation"] h1 {
 
 nav[role="navigation"] h1 {
 	left: 50%;
-	margin: 0 0 0 -62.5px;
+	margin: 0 0 0 -70.5px;
 	position: absolute; 
 	z-index: 1;
 	bottom: -4em;
-	width: 128px;
-	height: 128px;
+	width: 162px;
+	height: 138px;
 	text-indent: -9999px;
-	background: transparent url(../img/logo.png) no-repeat 50% 0;
+}
+
+nav[role="navigation"] h1 {
+	background: transparent url(../img/hellogeri_logo_large.png) no-repeat 50% 0;
+}
+
+.svg nav[role="navigation"] h1 {
+	background: transparent url(../img/hellogeri_logo_large.svg) no-repeat 50% 0;
 }
 
 nav[role="navigation"] ul {
@@ -1687,13 +1702,6 @@ section[role="complementary"] {
 .locations ul li p {
 	margin: 0;
 	text-align: left;
-}
-
-
-/*---- Main -----*/
-
-.blogthumb {
-	display: block;
 }
 
 

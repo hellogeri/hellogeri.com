@@ -43,6 +43,8 @@
 
 <body>
 
+<div id="page">
+
 <header class="doc-head">
 	<nav role="navigation">
 		<h1><a href="/" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady">Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</a></h1>
@@ -67,7 +69,6 @@
 
 	<article class="preview">
 		<header>
-			<a class="blogthumb" href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" alt="Germany &amp; Beyond Tellerrand"></a>
 			<h1><a href="#">Germany &amp; Beyond Tellerrand</a></h1>
 			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
 		</header>
@@ -82,7 +83,6 @@
 	</article>
 	<article class="preview">
 		<header>
-			<a class="blogthumb" href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" alt="Germany &amp; Beyond Tellerrand"></a>
 			<h1><a href="#">What Goes Up, Doesn't Have to Come Down</a></h1>
 			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
 		</header>
@@ -97,7 +97,20 @@
 	</article>
 	<article class="preview">
 		<header>
-			<a href="#"><img src="http://hellogeri.com/images/uploads/blog/blog_btconf_thumb.jpg" class="blogthumb" alt="Germany &amp; Beyond Tellerrand"></a>
+			<h1><a href="#">What Goes Up, Doesn't Have to Come Down</a></h1>
+			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
+		</header>
+		<p class="excerpt-lg">Admittedly, I’m a bit of a pack rat. I’m not talking hoarders-style, but I do have trouble parting with little things that are memorable for me. Not photos—I’m that person who keeps every movie ticket stub, boarding pass, and concert ticket neatly in a scrapbook to reflect on every now and then.</p>
+		<p class="excerpt-sm">My tendency to hold on to memories has naturally crossed over into the digital world. I keep all e-mail conversations, I rarely delete tweets, and I have extensive archives of photography and artwork. Even MP3s of songs I’ve grown sick of are more likely to end up backed up on a CD than thrown in the Trash.</p>
+		<footer>
+			<ul role="navigation">
+				<li><a class="icon-continue" href="#">Continue Reading…</a></li>
+				<li><a class="icon-comment" href="#">5 Comments</a></li>
+			</ul>
+		</footer>
+	</article>
+	<article class="preview">
+		<header>
 			<h1><a href="#">What Goes Up, Doesn't Have to Come Down</a></h1>
 			<p role="note">Posted in <a href="#">Life</a>, <a href="#">Web Design</a>, <a href="#">Reviews</a> on <time pubdate datetime="2012-11-28T22:16:01-03:30">November 28, 2012</time></p>
 		</header>
@@ -188,6 +201,8 @@
 		</ul>
 	</nav>
 </footer>
+
+</div>
 
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>

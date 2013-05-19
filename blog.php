@@ -138,7 +138,7 @@
 
 	<section class="comment_box">
 	<h1>Leave a Comment</h1>
-		<form id="comment_form" method="post" action="http://hellogeri.com">
+		<form role="form" id="comment_form" method="post" action="http://hellogeri.com">
 	
 			<fieldset>
 				<ul>

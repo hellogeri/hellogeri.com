@@ -66,7 +66,7 @@
 	<p>Whether it's illustration, design, or photography — I'd love to work with you. Please use the form below to get in touch. Don't forget to include as many details as you can about your project — it will help me get back to you sooner.</p>
 
 	<section class="contact_box">
-	<form id="contact_form" method="post" action="http://hellogeri.com/">
+	<form role="form" id="contact_form" method="post" action="http://hellogeri.com/">
 	<fieldset>
 		<ul>
 			<li>

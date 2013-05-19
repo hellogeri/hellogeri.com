@@ -72,7 +72,7 @@
 
 	<div data-picture data-alt="#">
         <div data-src="work/illustration/brokersdirect01_sm.jpg"></div>
-        <div data-src="work/illustration/brokersdirect01_lg.jpg"     data-media="(min-width: 57em)"></div>
+        <div data-src="work/illustration/brokersdirect01_lg.jpg" data-media="(min-width: 57em)"></div>
         <noscript>
             <img src="work/illustration/brokersdirect01_sm.jpg" alt="#">
         </noscript>
@@ -80,7 +80,7 @@
     
     <div data-picture data-alt="#">
         <div data-src="work/illustration/brokersdirect02_sm.jpg"></div>
-        <div data-src="work/illustration/brokersdirect02_lg.jpg"     data-media="(min-width: 57em)"></div>
+        <div data-src="work/illustration/brokersdirect02_lg.jpg" data-media="(min-width: 57em)"></div>
         <noscript>
             <img src="work/illustration/brokersdirect02_sm.jpg" alt="#">
         </noscript>

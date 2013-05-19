@@ -173,13 +173,11 @@
 	
 	<section class="book">
 		<h2>Pocket Guide to Colour Accessibility</h2>
-		<a href="http://www.fivesimplesteps.com/products/colour-accessibility"><img src="img/GeriCoady-ColourAccessibility.png" alt="Pocket Guide to Colour Accessibility by Geri Coady"></a>
+		<a href="http://www.fivesimplesteps.com/products/colour-accessibility"><img src="img/GeriCoady-ColourAccessibility.png" alt="Buy Pocket Guide to Colour Accessibility by Geri Coady"></a>
 		<p>My new book, <em>Pocket Guide to Colour Accessibility</em>, will help you create beautiful designs that are accessible to people with colour-blindness. Grab a copy over at <a href="http://www.fivesimplesteps.com/products/colour-accessibility">Five Simple Steps!</a></p>
 	</section>
 	
 </section>
-
-
 
 <footer role="contentinfo">
 	<nav class="doc-foot">

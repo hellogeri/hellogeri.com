@@ -64,7 +64,7 @@
 			<li><a class="icon-contact" href="contact.php">get in touch</a></li>
 		</ul>
 	</nav>
-	<div role="banner" class="illustration">
+	<div role="banner" class="basicheader">
 	</div>
 </header>
 

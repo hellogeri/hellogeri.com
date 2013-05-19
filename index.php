@@ -47,7 +47,7 @@
 
 <header class="doc-head">
 	<nav role="navigation">
-		<h1><a href="/" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady">Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</a></h1>
+		<a href="/" class="logo" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady"><h1>Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</h1></a>
 		<ul id="toggle-nav">
 			<li><a class="icon-illustration" href="illustration.php">illustration</a></li>
 			<li><a class="icon-design" href="design.php">design</a></li>
@@ -123,6 +123,8 @@
 			</ul>
 		</footer>
 	</article>
+	
+	<a href="#"><p class="more">View More</p></a>
 
 </main>
 

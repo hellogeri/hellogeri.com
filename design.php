@@ -47,7 +47,7 @@
 
 <header class="doc-head">
 	<nav role="navigation">
-		<h1><a href="/" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady">Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</a></h1>
+		<a href="/" class="logo" title="Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady"><h1>Illustration, Design, and Photography in Newfoundland, Canada by Geri Coady</h1></a>
 		<ul id="toggle-nav">
 			<li><a class="icon-illustration" href="illustration.php">illustration</a></li>
 			<li><a class="icon-design" href="design.php">design</a></li>
@@ -82,7 +82,7 @@
 	
 	<section class="skills">
 		<h2>What I Can Do</h2>
-		<p>FINISH THIS</p>
+		<p>I have over ten years of experience working on the web. I focus on visual and front-end design, with an interest in responsive design and accessibility. In addition, I'm a trained print designer and will accept certain projects if it's the right fit — so don't hesitate to get in touch!</p>
 	</section>
 	
 	<section class="availability">

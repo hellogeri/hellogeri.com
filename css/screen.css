@@ -1,12 +1,32 @@
 /*---- Clearfix -----*/
 
 .clearfix:after {
+	clear: both;
 	content: ".";
 	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
 	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+/*---- Containers -----*/
+
+div#page {
+	background: rgb(242,238,231);
+	margin: 0 auto;
+	max-width: 1920px;
+}
+
+main[role="main"] {
+	display: block;
+	margin: 0 auto;
+	max-width: 90%;
+} 
+
+section[role="complementary"] {
+	background: rgb(235,230,220);
+	padding: 0 5% 3em 5%;
+	max-width: 100%;
 }
 
 /*---- Global -----*/
@@ -18,7 +38,6 @@ html, body {
 
 body {
 	background: rgb(0,0,0) url(../img/page_bg.jpg) repeat;
-	/* background: rgb(242,238,231); */
 	color: rgb(25,25,25);
 	font: 100%/1.5 "Proxima-Nova-Light", sans-serif;
 }
@@ -93,29 +112,6 @@ button[type="submit"]:hover {
 	background-color: rgb(135,9,6);
 }
 
-/*---- Containers -----*/
-
-div#page {
-	max-width: 1920px;
-	margin-left: auto;
-	margin-right: auto;
-	background: rgb(242,238,231);
-}
-
-main[role="main"] {
-	display: block;
-	margin: 0 auto;
-	max-width: 90%;
-} 
-
-section[role="complementary"] {
-	background: rgb(235,230,220);
-	padding-right: 5%;
-	padding-left: 5%;
-	padding-bottom: 3em;
-	max-width: 100%;
-}
-
 /*---- Header -----*/
 
 .doc-head {
@@ -135,22 +131,22 @@ nav[role="navigation"]{
 	height: auto;  /* ??? */
 }
 
-nav[role="navigation"] h1 {
+.logo {
 	left: 50%;
 	margin: 0 auto 0 -48px;
 	position: absolute; 
 	z-index: 1;
-	bottom: -3em;
+	bottom: -4.5em;
 	width: 112px;
 	height: 96px;
 	text-indent: -9999px;
 }
 
-nav[role="navigation"] h1 {
+.logo {
 	background: transparent url(../img/hellogeri_logo_small.png) no-repeat 50% 0;
 }
 
-.svg nav[role="navigation"] h1 {
+.svg .logo {
 	background: transparent url(../img/hellogeri_logo_small.svg) no-repeat 50% 0;
 }
 
@@ -387,6 +383,10 @@ article q {
 	margin-top: 1em;
 }
 
+.blog .excerpt-lg {
+	margin-top: 1.5em;
+}
+
 article footer {
 	margin-top: 1.25em;
 }
@@ -435,6 +435,10 @@ article footer ul li:last-of-type a {
 	background: url(../img/icon-comment.svg) no-repeat 0;
 }
 
+.more {
+	margin: 0 0 3em 0;
+}
+
 
 /*---- Blog Page -----*/
 
@@ -451,7 +455,7 @@ article footer ul li:last-of-type a {
 	background-color: rgb(235,230,220);
 	padding: 1.5em;
 	display: block;
-	margin-top: 3em;
+	margin: 3em 0 0 0;
 }
 
 .author img {
@@ -467,8 +471,7 @@ article footer ul li:last-of-type a {
 }
 
 .author p {
-	margin-top: .5em;
-	margin-bottom: .25em;
+	margin: .5em 0 .25em 0;
 }
 
 .blog section[role="note"] {
@@ -621,7 +624,7 @@ form fieldset:last-of-type {
 
 ul.thumbs { 
 	list-style: none;
-	margin: 0 0 3em 0;
+	margin: 1em 0 3em 0;
 	padding: 0;
 }
 
@@ -1440,26 +1443,22 @@ nav[role="navigation"]{
 	text-align: center;
 }
 
-nav[role="navigation"] h1 {
-	top: .75em;
-}
-
-nav[role="navigation"] h1 {
+.logo {
 	left: 50%;
 	margin: 0 0 0 -70.5px;
 	position: absolute; 
 	z-index: 1;
-	bottom: -4em;
+	bottom: -6.5em;
 	width: 162px;
 	height: 138px;
 	text-indent: -9999px;
 }
 
-nav[role="navigation"] h1 {
+.logo {
 	background: transparent url(../img/hellogeri_logo_large.png) no-repeat 50% 0;
 }
 
-.svg nav[role="navigation"] h1 {
+.svg .logo {
 	background: transparent url(../img/hellogeri_logo_large.svg) no-repeat 50% 0;
 }
 

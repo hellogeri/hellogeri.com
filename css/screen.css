@@ -679,6 +679,7 @@ ul.thumbs li a:hover img {
 }
 
 
+
 /*---- About Page -----*/
 
 .aboutme {
@@ -1600,6 +1601,16 @@ section[role="complementary"] {
 
 section[role="complementary"] h2 {
 	text-align: left;
+}
+
+.sticky-stuck {
+    position: fixed;
+    top: 30px;
+}
+  
+body:after {
+        content: 'widescreen';
+        display: none;
 }
 
 

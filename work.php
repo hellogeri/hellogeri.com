@@ -36,11 +36,6 @@
     }
 }
 
-@media all and (min-width: 57em) {
-    body:after {
-        content: 'widescreen';
-        display: none;
-    }
 }
 </style>
 
@@ -146,7 +141,6 @@
 	$(function(){ // document ready
 		if ( !!$( ".sticky" ).offset() ) { // make sure ".sticky" element exists
 			var stickyTop = $( ".sticky" ).offset().top;
-
 			$(window).scroll(function(){ // scroll event
 				var windowTop = $(window).scrollTop();
 

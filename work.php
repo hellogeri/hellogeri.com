@@ -137,24 +137,7 @@
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>
 <script src="scripts/jquery-1.7.1.min.js"></script>
-<script>  	
-	$(function(){ // document ready
-		if ( !!$( ".sticky" ).offset() ) { // make sure ".sticky" element exists
-			var stickyTop = $( ".sticky" ).offset().top;
-			$(window).scroll(function(){ // scroll event
-				var windowTop = $(window).scrollTop();
-
-				if ( stickyTop < windowTop ) {
-					$( ".sticky" ).addClass( "sticky-stuck" );
-				} else {
-					$( ".sticky" ).removeClass( "sticky-stuck" );
-				}
-			});
-		} else {
-			$( ".sticky" ).removeClass( "sticky-stuck" );
-		}
-	});
-</script>
+<script src="scripts/sticky.js"></script>
 
 </body>
 </html>

@@ -142,6 +142,10 @@ nav[role="navigation"]{
 	z-index: 1;
 }
 
+.logo:active {
+	position: relative;
+}
+
 .logo {
 	background: transparent url(../img/hellogeri_logo_small.png) no-repeat 50% 0;
 }

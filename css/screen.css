@@ -1344,6 +1344,12 @@ a:active.nav-toggle {
 }
 
 @media screen and (min-width: 48em) {
+	.sticky-stuck {
+		position: fixed;
+		top: 30px;
+		right: 5%;
+		left: 74%;
+	}
 
 	.intro {
 		max-width: 80%;

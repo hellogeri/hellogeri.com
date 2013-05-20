@@ -142,38 +142,25 @@
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>
 <script src="scripts/jquery-1.7.1.min.js"></script>
-<script type="text/javascript">
-		
-		var size = window.getComputedStyle(document.body,':after').getPropertyValue('content');
-		
-		if (size == 'widescreen') {
-		
-		$(function(){ // document ready
+<script>  	
+	$(function(){ // document ready
+		if ( !!$( ".sticky" ).offset() ) { // make sure ".sticky" element exists
+			var stickyTop = $( ".sticky" ).offset().top;
 
-		  if (!!$('.sticky').offset()) { // make sure ".sticky" element exists
+			$(window).scroll(function(){ // scroll event
+				var windowTop = $(window).scrollTop();
 
-		    var stickyTop = $('.sticky').offset().top; // returns number 
-
-		    $(window).scroll(function(){ // scroll event
-
-		      var windowTop = $(window).scrollTop(); // returns number 
-
-		      if (stickyTop < windowTop){
-		        $('.sticky').css({ position: 'fixed', top: 30 });
-		      }
-		      else {
-		        $('.sticky').css('position','static');
-		      }
-
-		    });
-
-		  }
-		
-		});
-		
+				if ( stickyTop < windowTop ) {
+					$( ".sticky" ).addClass( "sticky-stuck" );
+				} else {
+					$( ".sticky" ).removeClass( "sticky-stuck" );
+				}
+			});
+		} else {
+			$( ".sticky" ).removeClass( "sticky-stuck" );
 		}
-		
-	</script>
+	});
+</script>
 
 </body>
 </html>

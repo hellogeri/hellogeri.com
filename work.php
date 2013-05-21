@@ -134,6 +134,7 @@
 
 </div>
 
+<script src="scripts/respond.min.js"></script>
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>
 <script src="scripts/jquery-1.7.1.min.js"></script>

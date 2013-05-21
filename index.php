@@ -24,6 +24,7 @@
 <![endif]-->
 
 <script src="scripts/modernizr.js"></script>
+<link rel="shortcut icon" href="img/favicon.png">
 
 <style>
 .sel {

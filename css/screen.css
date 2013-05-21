@@ -531,6 +531,10 @@ article footer ul li:last-of-type a {
 	margin: 0 1em 0 0;
 }
 
+.blogcategory {
+	margin-bottom: 1em;
+}
+
 
 /*---- Forms ----*/
 
@@ -674,6 +678,11 @@ ul.thumbs li a:hover img {
 	margin: 0 0 1em 0;
 }
 
+.work section[role="complementary"] cite {
+	font-size: .85em;
+	display: block;
+	margin-top: 1em;
+}
 
 .work section[role="complementary"] header ul {
 	list-style-type: none;
@@ -683,15 +692,37 @@ ul.thumbs li a:hover img {
 }
 
 .work section[role="complementary"] footer {
-	margin: 0 0 3em 0;
+	margin: 2.5em 0 3em 0;
 }
 
 .work section[role="complementary"] footer ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 .work section[role="complementary"] footer ul li {
 	display: inline;
+}
+
+.work section[role="complementary"] footer ul li.navback {
+	float: right;
+}
+
+.work section[role="complementary"] footer ul li.navolder {
+	float: left;
+	padding-left: 1.5em;
+	padding-right: 2em;
+	background-image: url(../img/icon-next.png);
+	background-repeat: no-repeat;
+	background-position: 69px 44%;
+}
+
+.work section[role="complementary"] footer ul li.navnewer {
+	float: left;
+	padding-left: 1em;
+	background-image: url(../img/icon-prev.png);
+	background-repeat: no-repeat;
+	background-position: 0px 44%;
 }
 
 

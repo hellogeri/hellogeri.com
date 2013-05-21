@@ -116,6 +116,7 @@
 
 </div>
 
+<script src="scripts/respond.min.js"></script>
 <script src="scripts/picturefill.js"></script>
 <script src="scripts/nav.js"></script>
 

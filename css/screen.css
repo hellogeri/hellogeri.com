@@ -663,6 +663,18 @@ ul.thumbs li a:hover img {
 	margin: 0 0 1em 0;
 }
 
+.work.noframe main[role="main"] img {
+	background: rgb(255,255,255);
+	border: 0;
+	-moz-box-shadow: 0 0 0 rgb(232,228,221);
+	-webkit-box-shadow: 0 0 0 rgb(232,228,221);
+	box-shadow: 0 0 0 rgb(232,228,221);
+	padding: 0;
+	width: 100%;
+	margin: 0 0 1em 0;
+}
+
+
 .work section[role="complementary"] header ul {
 	list-style-type: none;
 	margin: 1em 0 0 0;
@@ -1349,12 +1361,6 @@ a:active.nav-toggle {
 }
 
 @media screen and (min-width: 48em) {
-	.sticky-stuck {
-		position: fixed;
-		top: 30px;
-		right: 5%;
-		left: 74%;
-	}
 
 	.intro {
 		max-width: 80%;
@@ -1588,8 +1594,8 @@ nav[role="navigation"] li:nth-child(4), nav[role="navigation"] li:nth-child(5), 
 main[role="main"] {
 	width: 63.04166666%;
 	float: left;
-	margin-left:5%;
-	max-width:90%;
+	margin-left: 5%;
+	max-width: 90%;
 } 
 
 section[role="complementary"] {
@@ -1608,13 +1614,10 @@ section[role="complementary"] h2 {
 }
 
 .sticky-stuck {
-    position: fixed;
-    top: 30px;
-}
-  
-body:after {
-        content: 'widescreen';
-        display: none;
+	position: fixed;
+	top: 30px;
+	right: 5%;
+	left: 74%;
 }
 
 
@@ -1764,12 +1767,68 @@ footer[role="contentinfo"] {
 }
 
 
-
 @media screen and (min-width: 66em) {
 
 .availability a {
 	font-size: 1.25em;
 }
+
+
+}
+
+
+@media screen and (min-width: 80em) {
+
+.aboutme img {
+		margin-top: -5em;
+	}
+
+}
+
+@media screen and (min-width: 90em) {
+
+.intro {
+		max-width: 50%;
+		padding: 19.5em 3% 1em 3%;
+	}
+
+main[role="main"] {
+	float: left;
+	margin-left: 13%;
+	margin-right: 5%;
+	max-width: 45%;
+}
+
+section[role="complementary"] {
+	float: right;
+	background: #ccc;
+	background: transparent;
+	margin-right: 13%;
+	max-width: 24%;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.sticky-stuck {
+	left: 66.06%;
+	right: 13%
+}
+
+.aboutme {
+	max-width: 74%;
+}
+
+.aboutme img {
+		margin-top: -3.5em;
+	}
+
+}
+
+@media screen and (min-width: 100em) {
+
+.aboutme img {
+		max-width: 45%;
+	}
 
 }
 

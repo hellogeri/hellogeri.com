@@ -371,6 +371,7 @@ article q {
 	max-width: 100%;
 	height: auto;
 	margin-top: 1em;
+	margin-bottom: 1.5em;
 }
 
 .blog .excerpt-lg {
@@ -533,6 +534,16 @@ article footer ul li:last-of-type a {
 
 .blogcategory {
 	margin-bottom: 1em;
+}
+
+/*---- Archive ----*/
+
+.archive section[role="main"] ul{
+	list-style-type: none;
+}
+
+.archive section[role="main"] ul li {
+	border-bottom: 1px dotted rgb(227,227,208);
 }
 
 

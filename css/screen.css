@@ -840,15 +840,18 @@ ul.thumbs li a:hover img {
 
 .speaking ul li {
 	margin: auto 0;
-	/* background: url(../img/badge-vancouver.png) no-repeat center top; */
 	float: left;
 	width: 50%;
 	padding-top: 7em;
 	padding-bottom: 2em;
 }
 
+.brighton {
+	background: url(../img/badge-brighton-med.jpg) no-repeat center top;
+}
+
 .newyork {
-	background: url(../img/badge-toronto-med.jpg) no-repeat center top;
+	background: url(../img/badge-nyc-med.jpg) no-repeat center top;
 }
 	
 .toronto {
@@ -1042,8 +1045,8 @@ section[role="complementary"] h2 {
 	background: url(../img/badge-vancouver-sm.png) no-repeat center top;
 }
 
-.locations .toronto {
-	background: url(../img/badge-toronto-sm.png) no-repeat center top;
+.locations .brighton {
+	background: url(../img/badge-brighton-sm.png) no-repeat center top;
 }
 
 .locations .halifax {
@@ -1448,13 +1451,17 @@ a:active.nav-toggle {
 		margin: auto 0;
 		float: left;
 		width: 25%;
-		padding-top: 9.5em;
-		padding-bottom: 2em;
+		padding-top: 9.25em;
+		padding-bottom: 2.5em;
 		font-size: 1.2em;
 	}
 	
 	.newyork {
-		background: url(../img/badge-toronto-lrg.jpg) no-repeat center top;
+		background: url(../img/badge-nyc-lrg.jpg) no-repeat center top;
+	}
+	
+	.brighton {
+		background: url(../img/badge-brighton-lrg.jpg) no-repeat center top;
 	}
 	
 	.toronto {
@@ -1769,8 +1776,12 @@ section[role="complementary"] {
 	background: url(../img/badge-vancouver-sm.png) no-repeat 0 -3px;
 }
 
-.locations .toronto {
-	background: url(../img/badge-toronto-sm.png) no-repeat 0 -3px;
+.locations .brighton {
+	background: url(../img/badge-brighton-sm.png) no-repeat 0 -3px;
+}
+
+.locations .newyork {
+	background: url(../img/badge-nyc-sm.png) no-repeat 0 -3px;
 }
 
 .locations .halifax {
